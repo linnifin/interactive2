@@ -48,6 +48,45 @@ div {
 	/* transition: all 500ms ease; */
 }
 
+.item-row3 {
+	height: 190px;
+	width: 190px;
+	background: #50826D;
+	padding: 20px;
+	margin: 11px;
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left; 
+	overflow: hidden;
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+.item-row4 {
+	height: 190px;
+	width: 190px;
+	background: #8C2D56;
+	padding: 20px;
+	margin: 11px;
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left; 
+	overflow: hidden;
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+.item-row5 {
+	height: 190px;
+	width: 190px;
+	background: #F2A1B5;
+	padding: 20px;
+	margin: 11px;
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left; 
+	overflow: hidden;
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
 /* example buttons */
 
 #button-1:hover {
