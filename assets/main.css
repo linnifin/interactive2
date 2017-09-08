@@ -1,6 +1,11 @@
+*{
+	box-sizing: border-box;
+}
+
 body{
 	font-family: 'garamond', serif;
 	font-size: 18px;
+	margin: 0 auto;
 }
 
 h1{
@@ -11,4 +16,9 @@ h1{
 h2{
 	font-family: 'Slabo 27px', serif;
 	font-size: 20px;
+}
+
+.exercises{
+	position: relative;
+	top: 40px;
 }
