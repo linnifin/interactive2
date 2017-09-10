@@ -28,11 +28,12 @@ div {
 	background: #F06E4F;
 	padding: 20px;
 	margin: 11px;
-	/* comment out 'float: left;' to have items stack in a single column */
-	float: left; 
+	font-family: "Helvetic", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 180px;
+	float: left;
 	overflow: hidden;
-	/* uncomment this to get CSS transitions (conflicts with jQuery) */
-	/* transition: all 500ms ease; */
 }
 
 .item-row2 {
@@ -41,11 +42,12 @@ div {
 	background: #D9C495;
 	padding: 20px;
 	margin: 11px;
-	/* comment out 'float: left;' to have items stack in a single column */
+	font-family: "Helvetic", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 180px;
 	float: left; 
 	overflow: hidden;
-	/* uncomment this to get CSS transitions (conflicts with jQuery) */
-	/* transition: all 500ms ease; */
 }
 
 .item-row3 {
@@ -54,11 +56,12 @@ div {
 	background: #50826D;
 	padding: 20px;
 	margin: 11px;
-	/* comment out 'float: left;' to have items stack in a single column */
+	font-family: "Helvetic", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 180px;
 	float: left; 
 	overflow: hidden;
-	/* uncomment this to get CSS transitions (conflicts with jQuery) */
-	/* transition: all 500ms ease; */
 }
 
 .item-row4 {
@@ -67,11 +70,12 @@ div {
 	background: #8C2D56;
 	padding: 20px;
 	margin: 11px;
-	/* comment out 'float: left;' to have items stack in a single column */
+	font-family: "Helvetic", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 180px;
 	float: left; 
 	overflow: hidden;
-	/* uncomment this to get CSS transitions (conflicts with jQuery) */
-	/* transition: all 500ms ease; */
 }
 
 .item-row5 {
@@ -80,33 +84,157 @@ div {
 	background: #F2A1B5;
 	padding: 20px;
 	margin: 11px;
-	/* comment out 'float: left;' to have items stack in a single column */
+	font-family: "Helvetic", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 180px;
 	float: left; 
 	overflow: hidden;
-	/* uncomment this to get CSS transitions (conflicts with jQuery) */
-	/* transition: all 500ms ease; */
 }
 
-/* example buttons */
+/*buttons*/
 
 #button-1:hover {
 	
 }
 
 #button-1:active {
-	background: pink;
+	background: #F2A1B5;
+}
+
+#button-4:active {
+	background: #78FFD3;
+}
+
+#catimg{
+	opacity: 0;
+}
+
+#button-5::after{
+	content: 'my hopes and dreams';
+	padding-left: 15px;
+	font-family: "Helvetica", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 180px;
+}
+
+#button-5:hover::after{
+	content: 'my student loans';
+	padding-left: 30px;
+	font-family: "Helvetica", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 180px;
+}
+
+#button-6:hover {
+	transform: scale(1.5);
+	opacity: .3;
+}
+
+#button-6:active {
 	opacity: 1;
+	background-image: url("yikes.gif");
 }
 
-/* example buttons */
-
-#button-2::after {
-	content: 'this is added after the content inside the button';
-	color: white;
+#button-7:active {
+	animation: mymove 2s infinite;
 }
 
+@-webkit-keyframes mymove {
+    from {background-color: #FF85A0;}
+    to {background-color: #4BB25C;}
+}
 
-#button-2:hover::after {
-	content: 'this text changes on hover';
-	color: red;
+#button-9::before{
+	content: 'pls';
+	padding-left: 60px;
+	font-family: "Helvetica", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 180px;
+}
+
+#button-9:active::after{
+	content: 'help';
+	padding-left: 0px;
+	font-family: "Helvetica", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 180px;
+	animation: button9 2s infinite;
+}
+
+@-webkit-keyframes button9 {
+    from {font-size: 14px;}
+    to {font-size: 36px;}
+}
+
+#button-10:active {
+	animation: button10 3s infinite; 
+}
+
+@-webkit-keyframes button10 {
+    from {transform: skewX(0deg);}
+    to {transform: skewX(180deg);}
+}
+
+#button-12:active {
+	box-shadow: 10px 10px 5px #888888;
+	background-image: url(mirror.png);
+}
+
+#button-14b{
+	/*visibility: hidden;*/
+	left: 756px;
+	top: 252px;
+	position: fixed;
+}
+
+#button-15b{
+	position: fixed;
+	top:200px;
+	left: -300px;
+	overflow: hidden;
+}
+
+#button-18{
+	max-width: 190px;
+}
+
+#button-20{
+	min-height: 190px;
+}
+
+#button-21:active{
+	background-image: url(salt.jpg);
+	border-style: dashed;
+	width: 187px;
+	height: 187px;
+}
+
+#button-23:hover{
+	width:182px;
+	height:182px;
+	border-style:dotted;
+	border-width: 4px;
+}
+
+#button-23:active{
+	animation: button23 1s infinite;
+}
+
+@-webkit-keyframes button23 {
+    from {border-style:dotted;}
+    to {border-style:dashed;}
+}
+
+#button-24:active{
+	animation: button24 2s 1;
+}
+
+@-webkit-keyframes button24 {
+    from {font-style:oblique; font-size: 14px;}
+    to {font-style:oblique; font-size: 22px;}
 }
