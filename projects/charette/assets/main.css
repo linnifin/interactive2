@@ -238,3 +238,109 @@ div {
     from {font-style:oblique; font-size: 14px;}
     to {font-style:oblique; font-size: 22px;}
 }
+
+.b26img{
+	position: fixed;
+	left: 360px;
+	top: 100px;
+}
+
+.button-31b{
+	height: 190px;
+	width: 190px;
+	background: #D9C495;
+	padding: 20px;
+	margin: 11px;
+	font-family: "Helvetic", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 180px;
+	overflow: hidden;
+	position: fixed;
+	top:252px;
+}
+
+#button-33:active{
+	animation: button33 3s infinite;
+	height: 80px;
+	width: 80px;
+	background: #F06E4F;
+}
+
+@-webkit-keyframes button33 {
+     from {transform: skewX(0deg);}
+    to {transform: skewX(360deg);}
+}
+
+#button-35:active{
+	animation: button35 3s infinite;
+}
+
+@-webkit-keyframes button35 {
+     from {transform: 0;}
+    to {transform: rotate(90deg);}
+}
+
+#b38img:active{
+	animation: b38img 1s infinite;
+}
+
+@-webkit-keyframes b38img {
+     from {transform: 0;}
+    to {transform: rotate(360deg);}
+}
+
+#button-39{
+	line-height:14px;
+}
+
+#button-39:active{
+	font-family:"Arial Black", sans-serif;
+	font-size:36px;
+	overflow:visible;
+	line-height:38px;
+}
+
+#button-40:active{
+	color: pink;
+	font-style: italic;
+}
+
+#button-46{
+	line-height: 14px;
+}
+
+#button-46:active{
+	color:white;
+	background-color:#D9C495;
+}
+
+#button-47:active::after{
+	content:'nothing';
+	animation: button47 1s 1;
+	line-height: 14px;
+}
+
+@-webkit-keyframes button47 {
+     from {line-height:14px;}
+    to {line-height:600px;}
+}
+
+#button-48:active{
+	font-size: 48px;
+	animation: button48b 3s infinite;
+}
+
+@-webkit-keyframes button48 {
+     from {font-size: 14px;}
+    to {font-size: 56px;}
+}
+
+@-webkit-keyframes button48b {
+     from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+#button-49:active{
+	background-color: transparent;
+}
