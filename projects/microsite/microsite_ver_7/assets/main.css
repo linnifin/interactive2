@@ -25,17 +25,13 @@ body{
     color: white;
     font-family: "Trebuchet MS";
     font-weight: bold;
-    font-size: 200px;
-    line-height: 0px;
-    letter-spacing: 1px;
+    font-size: 107px;
+    line-height: 30%;
     z-index: 4;
     position: fixed;
-    top: -110px;
-    left: 100px;
-    text-align: center;
+    text-rendering: optimizeLegibility;
+    top: -50px;
 }
-
-
 
 .shit{
 	position: relative;

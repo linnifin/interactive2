@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	max-height: 790px;
+	width: auto;
+}
+
+.mamadiv{
+	z-index: 10;
+	position: absolute;
+	height:100%;
+	width:100%;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    color: white;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-size: 107px;
+    line-height: 30%;
+    z-index: 4;
+    position: fixed;
+    text-rendering: optimizeLegibility;
+    top: -50px;
+}
+
+.shit{
+	position: relative;
+	margin-left: -27px;
+	margin-right: -51px;
+}
+.shit2{
+	position: relative;
+}
+
+.clickable{
+	width: 5%;
+	height: 750px;
+	position: relative;
+	float: left;
+	z-index: 5;
+	margin-right: 0;
+}
+
+.hidingwall{
+	width: 105%;
+	height: 60px;
+	background-color: white;
+	position: absolute;
+	top: 100%;
+	z-index: 3;
+}
+
+#img1{
+	height: 58px;
+	width:58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	z-index: 2;
+	background-position: center;
+}
+
+#img2{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 58px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img3{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 116px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img4{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 174px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img5{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 232px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img6{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 290px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img7{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 348px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img8{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 406px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img9{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 464px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img10{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 522px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img11{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 580px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img12{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 638px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img13{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 696px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img14{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 754px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img15{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 812px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img16{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 870px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img17{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 928px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img18{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 986px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img19{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 1044px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img20{
+	height: 58px;
+	width: 58px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 1102px;
+	z-index: 2;
+	background-position: center;
+}
