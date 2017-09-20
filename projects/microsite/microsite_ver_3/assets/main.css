@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	max-height: 790px;
+	width: auto;
+}
+
+.mamadiv{
+	z-index: 10;
+	position: absolute;
+	height:100%;
+	width:100%;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    color: white;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-size: 107px;
+    line-height: 30%;
+    z-index: 4;
+    position: fixed;
+    text-rendering: optimizeLegibility;
+    top: -50px;
+}
+
+.shit{
+	position: relative;
+	margin-left: -27px;
+	margin-right: -51px;
+}
+.shit2{
+	position: relative;
+}
+
+.clickable{
+	width: 10%;
+	height: 790px;
+	position: relative;
+	float: left;
+	z-index: 5;
+	margin-right: 0;
+}
+
+.hidingwall{
+	width: 105%;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	top: 100%;
+	z-index: 3;
+}
+
+#img1{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	z-index: 2;
+	background-position: center;
+}
+
+#img2{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 130px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img3{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 260px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img4{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 390px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img5{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 520px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img6{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 650px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img7{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 780px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img8{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 910px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img9{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 1040px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img10{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 1170px;
+	z-index: 2;
+	background-position: center;
+}
