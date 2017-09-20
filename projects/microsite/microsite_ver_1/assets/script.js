@@ -59,13 +59,56 @@ $('#f').click(function() {
 
 		$("#img6").animate({
 			top: "-185px",
-			},25000)
+			},20000)
 		$("#img6").animate({
 			top: "100%",
 		}, 0)
 
 		});
 
+$('#g').click(function() {
+
+		$("#img7").animate({
+			top: "-185px",
+			},7000)
+		$("#img7").animate({
+			top: "100%",
+		}, 0)
+
+		});
+
+$('#h').click(function() {
+
+		$("#img8").animate({
+			top: "-185px",
+			},17000)
+		$("#img8").animate({
+			top: "100%",
+		}, 0)
+
+		});
+
+$('#i').click(function() {
+
+		$("#img9").animate({
+			top: "-185px",
+			},17000)
+		$("#img9").animate({
+			top: "100%",
+		}, 0)
+
+		});
+
+$('#j').click(function() {
+
+		$("#img10").animate({
+			top: "-185px",
+			},17000)
+		$("#img10").animate({
+			top: "100%",
+		}, 0)
+
+		});
 
 
 });

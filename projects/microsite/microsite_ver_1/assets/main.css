@@ -25,12 +25,12 @@ body{
     color: white;
     font-family: "Trebuchet MS";
     font-weight: bold;
-    font-size: 118px;
+    font-size: 107px;
     line-height: 30%;
     z-index: 4;
     position: fixed;
     text-rendering: optimizeLegibility;
-    top: 10px;
+    top: -50px;
 }
 
 .shit{
@@ -52,7 +52,7 @@ body{
 }
 
 .hidingwall{
-	width: 100%;
+	width: 105%;
 	height: 200px;
 	background-color: white;
 	position: absolute;
@@ -109,7 +109,7 @@ body{
 	overflow: hidden;
 	position: absolute;
 	top: 100%;
-	left: 420px;
+	left: 520px;
 	z-index: 2;
 	background-position: center;
 }
@@ -120,8 +120,51 @@ body{
 	overflow: hidden;
 	position: absolute;
 	top: 100%;
-	left: 550px;
+	left: 650px;
 	z-index: 2;
 	background-position: center;
 }
 
+#img7{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 780px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img8{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 910px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img9{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 1040px;
+	z-index: 2;
+	background-position: center;
+}
+
+#img10{
+	height: 115px;
+	width: 115px;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 1170px;
+	z-index: 2;
+	background-position: center;
+}
