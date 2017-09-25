@@ -1,114 +1,234 @@
 $(document).ready(function(){
 
-$('#a').click(function() {
+$("#pic1").hide();
 
-		$("#img1").animate({
+$('#a').click(function() {
+		$('#pic1').show();
+		$("#pic1").animate({
 			top: "-185px",
-			},30000)
-		$("#img1").animate({
-			top: "100%",
-		}, 0)
+			},10000)
+		$('#pic1').hide(0);
+		$("#pic1").animate({
+			top: "460px",
+		}, 0);
 
 		});
+
+
+$("#pic2").hide();
 
 $('#b').click(function() {
 
-		$("#img2").animate({
+		$('#pic2').show();
+		$("#pic2").animate({
 			top: "-185px",
-			},15000)
-		$("#img2").animate({
-			top: "100%",
+			},10100)
+		$('#pic2').hide(0);
+		$("#pic2").animate({
+			top: "460px",
 		}, 0)
 
 		});
+
+$("#pic3").hide();
 
 $('#c').click(function() {
 
-		$("#img3").animate({
+		$('#pic3').show();
+		$("#pic3").animate({
 			top: "-185px",
-			},8000)
-		$("#img3").animate({
-			top: "100%",
+			},10200)
+		$('#pic3').hide(0);
+		$("#pic3").animate({
+			top: "460px",
 		}, 0)
 
 		});
+
+$("#pic4").hide();
 
 $('#d').click(function() {
 
-		$("#img4").animate({
+		$('#pic4').show();
+		$("#pic4").animate({
 			top: "-185px",
-			},40000)
-		$("#img4").animate({
-			top: "100%",
+			},10050)
+		$('#pic4').hide(0);
+		$("#pic4").animate({
+			top: "460px",
 		}, 0)
 
 		});
+
+$("#pic5").hide();
 
 $('#e').click(function() {
 
-		$("#img5").animate({
+		$('#pic5').show();
+		$("#pic5").animate({
 			top: "-185px",
-			},25000)
-		$("#img5").animate({
-			top: "100%",
+			},10150)
+		$("#pic5").hide(0);
+		$("#pic5").animate({
+			top: "460px",
 		}, 0)
 
 		});
+
+$("#pic6").hide();
 
 $('#f').click(function() {
 
-		$("#img6").animate({
+		$('#pic6').show();
+		$("#pic6").animate({
 			top: "-185px",
-			},20000)
-		$("#img6").animate({
-			top: "100%",
+			},10175)
+		$("#pic6").hide(0);
+		$("#pic6").animate({
+			top: "460px",
 		}, 0)
 
 		});
+
+$("#pic7").hide();
 
 $('#g').click(function() {
 
-		$("#img7").animate({
+		$('#pic7').show();
+		$("#pic7").animate({
 			top: "-185px",
-			},7000)
-		$("#img7").animate({
-			top: "100%",
+			},10100)
+		$("#pic7").hide(0);
+		$("#pic7").animate({
+			top: "460px",
 		}, 0)
 
 		});
+
+$("#pic8").hide();
 
 $('#h').click(function() {
 
-		$("#img8").animate({
+		$('#pic8').show();
+		$("#pic8").animate({
 			top: "-185px",
-			},17000)
-		$("#img8").animate({
-			top: "100%",
+			},10200)
+		$("#pic8").hide(0);
+		$("#pic8").animate({
+			top: "460px",
 		}, 0)
 
 		});
+
+$("#pic9").hide();
 
 $('#i').click(function() {
 
-		$("#img9").animate({
+		$('#pic9').show();
+		$("#pic9").animate({
 			top: "-185px",
-			},17000)
-		$("#img9").animate({
-			top: "100%",
+			},10000)
+		$("#pic9").hide(0);
+		$("#pic9").animate({
+			top: "460px",
 		}, 0)
 
 		});
+
+$("#pic10").hide();
 
 $('#j').click(function() {
 
-		$("#img10").animate({
+		$('#pic10').show();
+		$("#pic10").animate({
 			top: "-185px",
-			},17000)
-		$("#img10").animate({
-			top: "100%",
+			},10100)
+		$("#pic10").hide(0);
+		$("#pic10").animate({
+			top: "460px",
 		}, 0)
 
 		});
 
+$("#pic11").hide();
+
+$('#k').click(function() {
+
+		$('#pic11').show();
+		$("#pic11").animate({
+			top: "-185px",
+			},10150)
+		$("#pic11").hide(0);
+		$("#pic11").animate({
+			top: "460px",
+		}, 0)
+
+		});
+
+$("#pic12").hide();
+
+$('#l').click(function() {
+
+		$('#pic12').show();
+		$("#pic12").animate({
+			top: "-185px",
+			},10200)
+		$("#pic12").hide(0);
+		$("#pic12").animate({
+			top: "460px",
+		}, 0)
+
+		});
+
+$("#pic13").hide();
+
+$('#m').click(function() {
+
+		$('#pic13').show();
+		$("#pic13").animate({
+			top: "-185px",
+			},10050)
+		$("#pic13").hide(0);
+		$("#pic13").animate({
+			top: "460px",
+		}, 0)
+
+		});
+
+$("#pic14").hide();
+
+$('#n').click(function() {
+
+		$('#pic14').show();
+		$("#pic14").animate({
+			top: "-185px",
+			},10075)
+		$("#pic14").hide(0);
+		$("#pic14").animate({
+			top: "460px",
+		}, 0)
+
+		});
+
+
+$('.clickable2').click(function() {
+	$('#pic1').stop(50);
+	$('#pic2').stop(50);
+	$('#pic3').stop(50);
+	$('#pic4').stop(50);
+	$('#pic5').stop(50);
+	$('#pic6').stop(50);
+	$('#pic7').stop(50);
+	$('#pic8').stop(50);
+	$('#pic9').stop(50);
+	$('#pic10').stop(50);
+	$('#pic11').stop(50);
+	$('#pic12').stop(50);
+	$('#pic13').stop(50);
+	$('#pic14').stop(50);
+})
+
+
+//var images = [ "#pic1" "#pic2" "#pic3" "#pic4" "#pic5" "#pic6" "#pic7" "#pic8" "#pic9" "#pic10" "#pic11" "#pic12" "#pic13" "#pic14" ];
 
 });

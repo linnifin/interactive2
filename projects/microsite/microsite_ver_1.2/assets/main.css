@@ -3,8 +3,7 @@
 }
 
 body{
-	max-height: 790px;
-	width: auto;
+
 }
 
 .mamadiv{
@@ -23,11 +22,10 @@ body{
     user-select: none;
 
     color: white;
-    font-family: "Trebuchet MS";
-    font-weight: bold;
-    font-size: 107px;
-    line-height: 30%;
-    z-index: 4;
+    font-family: "Roboto", sans-serif;
+    font-size: 118px;
+    line-height: 10%;
+    z-index: 12;
     position: fixed;
     text-rendering: optimizeLegibility;
     top: -50px;
@@ -42,129 +40,141 @@ body{
 	position: relative;
 }
 
-.clickable{
-	width: 10%;
-	height: 790px;
+.clickable-a{
+	width: 6.9%;
+	height: 640px;
 	position: relative;
 	float: left;
-	z-index: 5;
+	z-index: 13;
 	margin-right: 0;
+	cursor: pointer;
 }
 
-.hidingwall{
+.clickable-b{
+	width: 6.9%;
+	height: 640px;
+	position: relative;
+	float: left;
+	z-index: 13;
+	margin-right: 0;
+	cursor: cell;
+}
+
+.clickable2{
+	width: 75%;
+	height: 90px;
+	position: absolute;
+	z-index: 14;
+	left: 10%;
+	top: 10%;
+	cursor: help;
+}
+
+/*.hidingwall{
 	width: 105%;
 	height: 200px;
 	background-color: white;
 	position: absolute;
 	top: 100%;
-	z-index: 3;
-}
+	z-index: 11
+}*/
 
-#img1{
-	height: 115px;
-	width: 115px;
+.img-a{
+	height: 150px;
+	width: 175px;
 	overflow: hidden;
 	position: absolute;
-	top: 100%;
-	z-index: 2;
+	top: 460px;
 	background-position: center;
+	z-index:10;
 }
 
-#img2{
-	height: 115px;
-	width: 115px;
+.img-b{
+	height: 150px;
+	width: 175px;
 	overflow: hidden;
 	position: absolute;
-	top: 100%;
-	left: 130px;
-	z-index: 2;
+	top: 460px;
 	background-position: center;
+	z-index:9;
 }
 
-#img3{
-	height: 115px;
-	width: 115px;
+.img-c{
+	height: 150px;
+	width: 175px;
 	overflow: hidden;
 	position: absolute;
-	top: 100%;
-	left: 260px;
-	z-index: 2;
+	top: 460px;
 	background-position: center;
+	z-index:8;
 }
 
-#img4{
-	height: 115px;
-	width: 115px;
-	overflow: hidden;
-	position: absolute;
-	top: 100%;
-	left: 390px;
-	z-index: 2;
-	background-position: center;
+#pic1{
+	background-image: url(images/thm_b1.jpg)
+
 }
 
-#img5{
-	height: 115px;
-	width: 115px;
-	overflow: hidden;
-	position: absolute;
-	top: 100%;
-	left: 520px;
-	z-index: 2;
-	background-position: center;
+#pic2{
+	left: 87px;
+	background-image: url(images/thm_b2.jpg)
 }
 
-#img6{
-	height: 115px;
-	width: 115px;
-	overflow: hidden;
-	position: absolute;
-	top: 100%;
-	left: 650px;
-	z-index: 2;
-	background-position: center;
+#pic3{
+	left: 174px;
+	background-image: url(images/thm_b25.jpg)
 }
 
-#img7{
-	height: 115px;
-	width: 115px;
-	overflow: hidden;
-	position: absolute;
-	top: 100%;
-	left: 780px;
-	z-index: 2;
-	background-position: center;
+#pic4{
+	left: 261px;
+	background-image: url(images/thm_b13.jpg)
 }
 
-#img8{
-	height: 115px;
-	width: 115px;
-	overflow: hidden;
-	position: absolute;
-	top: 100%;
-	left: 910px;
-	z-index: 2;
-	background-position: center;
+#pic5{
+	left: 348px;
+	background-image: url(images/thm_b5.jpg)
 }
 
-#img9{
-	height: 115px;
-	width: 115px;
-	overflow: hidden;
-	position: absolute;
-	top: 100%;
-	left: 1040px;
-	z-index: 2;
-	background-position: center;
+#pic6{
+	left: 435px;
+	background-image: url(images/thm_b6.jpg)
 }
 
-#img10{
-	height: 115px;
-	width: 115px;
-	overflow: hidden;
-	position: absolute;
-	top: 100%;
-	left: 1170px;
-	z-index: 2;
-	background-position: center;
+#pic7{
+	left: 522px
+	background-image: url(images/thm_b7.jpg)
+}
+
+#pic8{
+	left: 609px;
+	background-image: url(images/thm_b8.jpg)
+}
+
+#pic9{
+	left: 696px;
+	background-image: url(images/thm_b9.jpg)
+}
+
+#pic10{
+	left: 783px;
+	background-image: url(images/thm_b10.jpg)
+}
+
+#pic11{
+	left: 870px;
+	background-image: url(images/thm_b11.jpg)
+}
+
+#pic12{
+	left: 957px;
+	background-image: url(images/thm_b12.jpg)
+}
+
+#pic13{
+	left: 1044px;
+	background-image: url(images/thm_b22.jpg)
+}
+
+#pic14{
+	left: 1131px;
+	background-image: url(images/thm_b14.jpg)
 }
