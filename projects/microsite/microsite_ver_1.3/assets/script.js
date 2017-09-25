@@ -1,5 +1,29 @@
 $(document).ready(function(){
 
+var myImage = document.getElementById("img-a");
+
+var imageArray1 = ["images/thm_a1.jpg","images/thm_b1.jpg","images/thm_c1.jpg",
+  "images/thm_d1.jpg","images/thm_e1.jpg","images/thm_f1.jpg"];
+
+/*var imageIndex = 0;
+
+function changeImage() {
+  myImage.setAttribute("src",imageArray[imageIndex]);
+  imageIndex = (imageIndex + 1) % imageArray.length;
+}
+
+setInterval(changeImage, 500);*/
+
+
+
+/*$("#a").click(function(){
+    var pic1 = $("#pic1");
+    if(pic1.hasClass('visible'))
+        pic1.removeClass('visible').animate({top: '460px'}, 1200);
+    else
+        pic1.addClass('visible').animate({top: '-185px'}, 1200);
+});*/
+
 $("#pic1").hide();
 
 $('#a').click(function() {
@@ -7,10 +31,11 @@ $('#a').click(function() {
 		$("#pic1").animate({
 			top: "-185px",
 			},10000)
-		$('#pic1').hide(0);
 		$("#pic1").animate({
 			top: "460px",
 		}, 0);
+		$('#pic1').hide(0);
+		return false;
 
 		});
 
@@ -23,10 +48,11 @@ $('#b').click(function() {
 		$("#pic2").animate({
 			top: "-185px",
 			},10100)
-		$('#pic2').hide(0);
 		$("#pic2").animate({
 			top: "460px",
 		}, 0)
+		$('#pic2').hide(0);
+		return false;
 
 		});
 
@@ -38,10 +64,11 @@ $('#c').click(function() {
 		$("#pic3").animate({
 			top: "-185px",
 			},10200)
-		$('#pic3').hide(0);
 		$("#pic3").animate({
 			top: "460px",
 		}, 0)
+		$('#pic3').hide(0);
+		return false;
 
 		});
 
@@ -53,10 +80,11 @@ $('#d').click(function() {
 		$("#pic4").animate({
 			top: "-185px",
 			},10050)
-		$('#pic4').hide(0);
 		$("#pic4").animate({
 			top: "460px",
 		}, 0)
+		$('#pic4').hide(0);
+		return false;
 
 		});
 
@@ -68,10 +96,11 @@ $('#e').click(function() {
 		$("#pic5").animate({
 			top: "-185px",
 			},10150)
-		$("#pic5").hide(0);
 		$("#pic5").animate({
 			top: "460px",
 		}, 0)
+		$("#pic5").hide(0);
+		return false;
 
 		});
 
@@ -83,10 +112,11 @@ $('#f').click(function() {
 		$("#pic6").animate({
 			top: "-185px",
 			},10175)
-		$("#pic6").hide(0);
 		$("#pic6").animate({
 			top: "460px",
 		}, 0)
+		$("#pic6").hide(0);
+		return false;
 
 		});
 
@@ -98,10 +128,12 @@ $('#g').click(function() {
 		$("#pic7").animate({
 			top: "-185px",
 			},10100)
-		$("#pic7").hide(0);
 		$("#pic7").animate({
 			top: "460px",
 		}, 0)
+		$("#pic7").hide(0);
+		return false;
+
 
 		});
 
@@ -113,10 +145,11 @@ $('#h').click(function() {
 		$("#pic8").animate({
 			top: "-185px",
 			},10200)
-		$("#pic8").hide(0);
 		$("#pic8").animate({
 			top: "460px",
 		}, 0)
+		$("#pic8").hide(0);
+		return false;
 
 		});
 
@@ -128,10 +161,11 @@ $('#i').click(function() {
 		$("#pic9").animate({
 			top: "-185px",
 			},10000)
-		$("#pic9").hide(0);
 		$("#pic9").animate({
 			top: "460px",
 		}, 0)
+		$("#pic9").hide(0);
+		return false;
 
 		});
 
@@ -143,10 +177,11 @@ $('#j').click(function() {
 		$("#pic10").animate({
 			top: "-185px",
 			},10100)
-		$("#pic10").hide(0);
 		$("#pic10").animate({
 			top: "460px",
 		}, 0)
+		$("#pic10").hide(0);
+		return false;
 
 		});
 
@@ -158,10 +193,11 @@ $('#k').click(function() {
 		$("#pic11").animate({
 			top: "-185px",
 			},10150)
-		$("#pic11").hide(0);
 		$("#pic11").animate({
 			top: "460px",
 		}, 0)
+		$("#pic11").hide(0);
+		return false;
 
 		});
 
@@ -173,10 +209,11 @@ $('#l').click(function() {
 		$("#pic12").animate({
 			top: "-185px",
 			},10200)
-		$("#pic12").hide(0);
 		$("#pic12").animate({
 			top: "460px",
 		}, 0)
+		$("#pic12").hide(0);
+		return false;
 
 		});
 
@@ -188,10 +225,11 @@ $('#m').click(function() {
 		$("#pic13").animate({
 			top: "-185px",
 			},10050)
-		$("#pic13").hide(0);
 		$("#pic13").animate({
 			top: "460px",
 		}, 0)
+		$("#pic13").hide(0);
+		return false;
 
 		});
 
@@ -203,15 +241,16 @@ $('#n').click(function() {
 		$("#pic14").animate({
 			top: "-185px",
 			},10075)
-		$("#pic14").hide(0);
 		$("#pic14").animate({
 			top: "460px",
 		}, 0)
+		$("#pic14").hide(0);
+		return false;
 
 		});
 
 
-$('.clickable2').click(function() {
+$('.clickable2').onclick = function() {
 	$('#pic1').stop(50);
 	$('#pic2').stop(50);
 	$('#pic3').stop(50);
@@ -226,9 +265,9 @@ $('.clickable2').click(function() {
 	$('#pic12').stop(50);
 	$('#pic13').stop(50);
 	$('#pic14').stop(50);
-})
+}
 
 
-//var images = [ "#pic1" "#pic2" "#pic3" "#pic4" "#pic5" "#pic6" "#pic7" "#pic8" "#pic9" "#pic10" "#pic11" "#pic12" "#pic13" "#pic14" ];
+
 
 });

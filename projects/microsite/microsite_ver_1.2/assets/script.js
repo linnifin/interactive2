@@ -11,6 +11,7 @@ $('#a').click(function() {
 		$("#pic1").animate({
 			top: "460px",
 		}, 0);
+		return false;
 
 		});
 
@@ -27,6 +28,7 @@ $('#b').click(function() {
 		$("#pic2").animate({
 			top: "460px",
 		}, 0)
+		return false;
 
 		});
 
@@ -42,6 +44,7 @@ $('#c').click(function() {
 		$("#pic3").animate({
 			top: "460px",
 		}, 0)
+		return false;
 
 		});
 
@@ -57,6 +60,7 @@ $('#d').click(function() {
 		$("#pic4").animate({
 			top: "460px",
 		}, 0)
+		return false;
 
 		});
 
@@ -72,6 +76,7 @@ $('#e').click(function() {
 		$("#pic5").animate({
 			top: "460px",
 		}, 0)
+		return false;
 
 		});
 
@@ -87,10 +92,11 @@ $('#f').click(function() {
 		$("#pic6").animate({
 			top: "460px",
 		}, 0)
+		return false;
 
 		});
 
-$("#pic7").hide();
+//$("#pic7").hide();
 
 $('#g').click(function() {
 
@@ -102,6 +108,7 @@ $('#g').click(function() {
 		$("#pic7").animate({
 			top: "460px",
 		}, 0)
+		return false;
 
 		});
 
@@ -117,6 +124,7 @@ $('#h').click(function() {
 		$("#pic8").animate({
 			top: "460px",
 		}, 0)
+		return false;
 
 		});
 
@@ -132,6 +140,7 @@ $('#i').click(function() {
 		$("#pic9").animate({
 			top: "460px",
 		}, 0)
+		return false;
 
 		});
 
@@ -147,6 +156,7 @@ $('#j').click(function() {
 		$("#pic10").animate({
 			top: "460px",
 		}, 0)
+		return false;
 
 		});
 
@@ -162,6 +172,7 @@ $('#k').click(function() {
 		$("#pic11").animate({
 			top: "460px",
 		}, 0)
+		return false;
 
 		});
 
@@ -177,6 +188,7 @@ $('#l').click(function() {
 		$("#pic12").animate({
 			top: "460px",
 		}, 0)
+		return false;
 
 		});
 
@@ -192,6 +204,7 @@ $('#m').click(function() {
 		$("#pic13").animate({
 			top: "460px",
 		}, 0)
+		return false;
 
 		});
 
@@ -207,6 +220,7 @@ $('#n').click(function() {
 		$("#pic14").animate({
 			top: "460px",
 		}, 0)
+		return false;
 
 		});
 

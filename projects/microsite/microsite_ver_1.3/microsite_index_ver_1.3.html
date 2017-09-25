@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>ms_ver_1.2</title>
+    <title>ms_ver_1.3</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="assets/main.css" type="text/css" />
     <!-- jquery -->
@@ -11,9 +11,24 @@
     <script src="assets/jquery.lettering-0.6.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
 
+
+    <script type="text/javascript"> 
+		var totalCount = 14;
+		function ChangeIt() 
+		{
+		var num = Math.ceil( Math.random() * totalCount );
+		document.body.background = 'images/thm_b'+num+'.jpg';
+		document.body.style.backgroundRepeat = "repeat";// Background repeat
+		}
+	</script>
+
 </head>
 
 <body>
+
+	<!--<script type="text/javascript"> 
+	ChangeIt();
+	</script>-->	
 
 		<div class="clickable2">
 		</div>
@@ -70,6 +85,7 @@
 
 
 	<div class="img-a" id="pic1">
+		
 	</div>
 
 	<div class="img-b" id="pic2">
