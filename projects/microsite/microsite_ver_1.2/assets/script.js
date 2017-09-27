@@ -96,7 +96,7 @@ $('#f').click(function() {
 
 		});
 
-//$("#pic7").hide();
+$("#pic7").hide();
 
 $('#g').click(function() {
 

@@ -42,7 +42,7 @@ body{
 
 .clickable-a{
 	width: 6.9%;
-	height: 640px;
+	height: 600px;
 	position: relative;
 	float: left;
 	z-index: 13;
@@ -52,22 +52,12 @@ body{
 
 .clickable-b{
 	width: 6.9%;
-	height: 640px;
+	height: 600px;
 	position: relative;
 	float: left;
 	z-index: 13;
 	margin-right: 0;
 	cursor: cell;
-}
-
-.clickable2{
-	width: 75%;
-	height: 90px;
-	position: absolute;
-	z-index: 14;
-	left: 10%;
-	top: 10%;
-	cursor: help;
 }
 
 /*.hidingwall{
@@ -81,7 +71,7 @@ body{
 
 .img-a{
 	height: 150px;
-	width: 175px;
+	width: 225px;
 	overflow: hidden;
 	position: absolute;
 	top: 460px;
@@ -91,7 +81,7 @@ body{
 
 .img-b{
 	height: 150px;
-	width: 175px;
+	width: 225px;
 	overflow: hidden;
 	position: absolute;
 	top: 460px;
@@ -101,7 +91,7 @@ body{
 
 .img-c{
 	height: 150px;
-	width: 175px;
+	width: 225px;
 	overflow: hidden;
 	position: absolute;
 	top: 460px;
@@ -109,72 +99,149 @@ body{
 	z-index:8;
 }
 
+.button{
+	background-color: white;
+	border-style: solid;
+	border-color: #90D1A3;
+	border-width: 0.5px;
+	padding: 7px;
+	width: 90px;
+	font-family: "Garamond";
+	position: absolute;
+	left: 1%;
+	top: 93%;
+	z-index: 15;
+}
+
+.button:hover{
+background-color: #90D1A3;
+opacity: .6;
+border-color: white;
+}
+
 #pic1{
 	background-image: url(images/thm_b1.jpg)
 
 }
+	#pic1_a{
+		background-image: url(images/thm_a1.jpg)
+
+	}
+
 
 #pic2{
 	left: 87px;
 	background-image: url(images/thm_b2.jpg)
 }
+	#pic2_a{
+		left: 87px;
+		background-image: url(images/thm_a2.jpg)
+	}
 
 #pic3{
 	left: 174px;
 	background-image: url(images/thm_b25.jpg)
 }
+	#pic3_a{
+		left: 174px;
+		background-image: url(images/thm_a17.jpg)
+	}
 
 #pic4{
 	left: 261px;
 	background-image: url(images/thm_b13.jpg)
 }
+	#pic4_a{
+		left: 261px;
+		background-image: url(images/thm_a5.jpg)
+	}
 
 #pic5{
 	left: 348px;
 	background-image: url(images/thm_b5.jpg)
 }
+	#pic5_a{
+		left: 348px;
+		background-image: url(images/thm_a18.jpg)
+	}
 
 #pic6{
 	left: 435px;
 	background-image: url(images/thm_b6.jpg)
 }
+	#pic6_a{
+		left: 435px;
+		background-image: url(images/thm_a19.jpg)
+	}
 
 #pic7{
 	left: 522px;
-	background-image: url(images/thm_b20.jpg)
+	background-image: url(images/thm_b7.jpg)
 }
+	#pic7_a{
+		left: 522px;
+		background-image: url(images/thm_a6.jpg)
+	}
 
 #pic8{
 	left: 609px;
 	background-image: url(images/thm_b8.jpg)
 }
+	#pic8_a{
+		left: 609px;
+		background-image: url(images/thm_a7.jpg)
+	}
 
 #pic9{
 	left: 696px;
 	background-image: url(images/thm_b9.jpg)
 }
+	#pic9_a{
+		left: 696px;
+		background-image: url(images/thm_a3.jpg)
+	}
 
 #pic10{
 	left: 783px;
 	background-image: url(images/thm_b10.jpg)
 }
+	#pic10_a{
+		left: 783px;
+		background-image: url(images/thm_a11.jpg)
+	}
 
 #pic11{
 	left: 870px;
 	background-image: url(images/thm_b11.jpg)
 }
+	#pic11_a{
+		left: 870px;
+		background-image: url(images/thm_a10.jpg)
+	}
 
 #pic12{
 	left: 957px;
 	background-image: url(images/thm_b12.jpg)
 }
+	#pic12_a{
+		left: 957px;
+		background-image: url(images/thm_a8.jpg)
+	}
 
 #pic13{
 	left: 1044px;
 	background-image: url(images/thm_b22.jpg)
 }
+	#pic13_a{
+		left: 1044px;
+		background-image: url(images/thm_a21.jpg)
+	}
 
 #pic14{
 	left: 1131px;
 	background-image: url(images/thm_b14.jpg)
 }
+	#pic14_a{
+		left: 1131px;
+		background-image: url(images/thm_a12.jpg)
+	
