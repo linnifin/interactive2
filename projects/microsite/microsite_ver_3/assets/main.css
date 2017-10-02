@@ -2,7 +2,10 @@
   box-sizing: border-box;
 }
 
+/*microsite version 3*/
+
 body{
+	width: 1425px;
 
 }
 
@@ -31,6 +34,33 @@ body{
     top: -7%;
 }
 
+.intro{
+	position: fixed;
+	z-index: 15;
+	font-family: "Roboto", sans-serif;
+	top: 40%;
+	left: 42%;
+	text-align: center;
+	line-height: 45%
+}
+
+.maybe{
+	font-family: "Roboto", sans-serif;
+	background-color: white;
+	border-style: solid;
+	border-color: #235410;
+	border-width: 3px;
+	padding: 5px;
+	width: 70px;
+}
+
+.maybe:hover{
+	background-color: #90D1A3;
+	opacity: .6;
+	border-color: white;
+	cursor: cell;
+}
+
 .shit{
 	position: relative;
 	margin-left: -27px;
@@ -45,7 +75,7 @@ body{
 	height: 600px;
 	position: relative;
 	float: left;
-	z-index: 13;
+	z-index: 14;
 	margin-right: 0;
 	cursor: pointer;
 }
@@ -55,7 +85,7 @@ body{
 	height: 600px;
 	position: relative;
 	float: left;
-	z-index: 13;
+	z-index: 14;
 	margin-right: 0;
 	cursor: cell;
 }
@@ -70,21 +100,21 @@ body{
 }*/
 
 .img-a{
-	height: 150px;
+	height: 175px;
 	width: 275px;
 	overflow: hidden;
 	position: absolute;
-	top: 75%;
+	top: 84%;
 	background-position: center;
 	z-index:10;
 }
 
 .img-b{
-	height: 100px;
-	width: 250px;
+	height: 275px;
+	width: 175px;
 	overflow: hidden;
 	position: absolute;
-	top: 75%;
+	top: 67%;
 	background-position: center;
 	z-index:9;
 }
@@ -94,7 +124,7 @@ body{
 	width: 225px;
 	overflow: hidden;
 	position: absolute;
-	top: 75%;
+	top: 75.4%;
 	background-position: center;
 	z-index:8;
 }
@@ -102,13 +132,13 @@ body{
 .button{
 	background-color: white;
 	border-style: solid;
-	border-color: #90D1A3;
-	border-width: 0.5px;
+	border-color: #235410;
+	border-width: 3px;
 	padding: 7px;
 	width: 90px;
-	font-family: "Garamond";
-	position: absolute;
-	left: 1%;
+	font-family: "Roboto", sans-serif;
+	position: fixed;
+	left: 46%;
 	top: 93%;
 	z-index: 15;
 }
@@ -123,125 +153,69 @@ border-color: white;
 	background-image: url(images/thm_b1.jpg)
 
 }
-	#pic1_a{
-		background-image: url(images/thm_a1.jpg)
-
-	}
 
 
 #pic2{
-	left: 87px;
+	left: 8%;
 	background-image: url(images/thm_b2.jpg)
 }
-	#pic2_a{
-		left: 87px;
-		background-image: url(images/thm_a2.jpg)
-	}
 
 #pic3{
-	left: 174px;
+	left: 16%;
 	background-image: url(images/thm_b25.jpg)
 }
-	#pic3_a{
-		left: 174px;
-		background-image: url(images/thm_a17.jpg)
-	}
 
 #pic4{
-	left: 261px;
+	left: 23%;
 	background-image: url(images/thm_b13.jpg)
 }
-	#pic4_a{
-		left: 261px;
-		background-image: url(images/thm_a5.jpg)
-	}
 
 #pic5{
-	left: 348px;
+	left: 30%;
 	background-image: url(images/thm_b5.jpg)
 }
-	#pic5_a{
-		left: 348px;
-		background-image: url(images/thm_a18.jpg)
-	}
 
 #pic6{
-	left: 435px;
+	left: 37%;
 	background-image: url(images/thm_b6.jpg)
 }
-	#pic6_a{
-		left: 435px;
-		background-image: url(images/thm_a19.jpg)
-	}
 
 #pic7{
-	left: 522px;
+	left: 44%;
 	background-image: url(images/thm_b7.jpg)
 }
-	#pic7_a{
-		left: 522px;
-		background-image: url(images/thm_a6.jpg)
-	}
 
 #pic8{
-	left: 609px;
+	left: 51%;
 	background-image: url(images/thm_b8.jpg)
 }
-	#pic8_a{
-		left: 609px;
-		background-image: url(images/thm_a7.jpg)
-	}
 
 #pic9{
-	left: 696px;
+	left: 58%;
 	background-image: url(images/thm_b9.jpg)
 }
-	#pic9_a{
-		left: 696px;
-		background-image: url(images/thm_a3.jpg)
-	}
 
 #pic10{
-	left: 783px;
+	left: 65%;
 	background-image: url(images/thm_b10.jpg)
 }
-	#pic10_a{
-		left: 783px;
-		background-image: url(images/thm_a11.jpg)
-	}
 
 #pic11{
-	left: 870px;
+	left: 72%;
 	background-image: url(images/thm_b11.jpg)
 }
-	#pic11_a{
-		left: 870px;
-		background-image: url(images/thm_a10.jpg)
-	}
 
 #pic12{
-	left: 957px;
+	left: 79%;
 	background-image: url(images/thm_b12.jpg)
 }
-	#pic12_a{
-		left: 957px;
-		background-image: url(images/thm_a8.jpg)
-	}
 
 #pic13{
-	left: 1044px;
+	left: 86%;
 	background-image: url(images/thm_b22.jpg)
 }
-	#pic13_a{
-		left: 1044px;
-		background-image: url(images/thm_a21.jpg)
-	}
 
 #pic14{
-	left: 1131px;
+	left: 93%;
 	background-image: url(images/thm_b14.jpg)
 }
-	#pic14_a{
-		left: 1131px;
-		background-image: url(images/thm_a12.jpg)
-	

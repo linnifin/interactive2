@@ -1,30 +1,43 @@
 $(document).ready(function(){
 
+$('.button').click(function(){
+	document.getElementById('butt').style.backgroundColor = "#7782D9";
+
+	/*$('.button').click(function(){
+	document.getElementById('butt').style.backgroundColor = "white";
+	return true;
+	})*/
+})
+
+
 $("#pic1").hide();
 $("#pic1_a").hide();
 
 $("#a").click(function(){
-  		$('#pic1').show();
+  		$('#pic1').show(10);
 		$("#pic1").animate({
 			top: "-185px",
-			},10000)
-		$("#pic1").animate({
-			top: "460px",
-		}, 0);
+			},9000)
 		$('#pic1').hide(0);
+		$("#pic1").animate({
+			top: "85%"
+		}, 0);
+		$("#pic1").delay(9000).stop();
+});
 
-		
- 	$("#a").click(function(){
-    	$('#pic1_a').show();
+/*$("#a").click(function(){
+    	$('#pic1_a').show(10);
 		$("#pic1_a").animate({
 			top: "-185px",
-			},10000)
-		$("#pic1_a").animate({
-			top: "460px",
-		}, 0);
+			},8000)
 		$('#pic1_a').hide(0);
-	});
-});
+		$("#pic1_a").animate({
+			top: "85%",
+		}, 0);
+		$("#pic1_a").delay(8000).stop();
+		
+		
+	});*/
 
 
 $("#pic2").hide();
@@ -37,20 +50,20 @@ $('#b').click(function() {
 			},10100)
 		$('#pic2').hide(0);
 		$("#pic2").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
+		$("#pic1_a").delay(7000).stop();
+});
 
-	$("#b").click(function(){
+$("#b").click(function(){
     	$('#pic2_a').show();
 		$("#pic2_a").animate({
 			top: "-185px",
 			},10100)
 		$("#pic2_a").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 		$('#pic2_a').hide(0);
-	});
-
 });
 
 $("#pic3").hide();
@@ -63,7 +76,7 @@ $('#c').click(function() {
 		},10200)
 	$('#pic3').hide(0);
 	$("#pic3").animate({
-		top: "460px",
+		top: "75%",
 	}, 0);
 
 	$("#c").click(function(){
@@ -72,7 +85,7 @@ $('#c').click(function() {
 			top: "-185px",
 			},10200)
 		$("#pic3_a").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 		$('#pic3_a').hide(0);
 	});
@@ -88,7 +101,7 @@ $('#d').click(function() {
 			},10050)
 		$('#pic4').hide(0);
 		$("#pic4").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 
 	$("#d").click(function(){
@@ -97,7 +110,7 @@ $('#d').click(function() {
 			top: "-185px",
 			},10050)
 		$("#pic4_a").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 		$('#pic4_a').hide(0);
 	});
@@ -118,7 +131,7 @@ $('#e').click(function() {
 			},10150)
 		$("#pic5").hide(0);
 		$("#pic5").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 
 	$("#e").click(function(){
@@ -127,7 +140,7 @@ $('#e').click(function() {
 			top: "-185px",
 			},10050)
 		$("#pic5_a").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 		$('#pic5_a').hide(0);
 	});
@@ -144,7 +157,7 @@ $('#f').click(function() {
 			},10175)
 		$("#pic6").hide(0);
 		$("#pic6").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 
 	$("#f").click(function(){
@@ -153,7 +166,7 @@ $('#f').click(function() {
 			top: "-185px",
 			},10175)
 		$("#pic6_a").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 		$('#pic6_a').hide(0);
 	});
@@ -170,7 +183,7 @@ $('#g').click(function() {
 			},10100)
 		$("#pic7").hide(0);
 		$("#pic7").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 
 	$("#g").click(function(){
@@ -179,7 +192,7 @@ $('#g').click(function() {
 			top: "-185px",
 			},10100)
 		$("#pic7_a").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 		$('#pic7_a').hide(0);
 	});
@@ -196,7 +209,7 @@ $('#h').click(function() {
 			},10200)
 		$("#pic8").hide(0);
 		$("#pic8").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 
 	$("#h").click(function(){
@@ -205,7 +218,7 @@ $('#h').click(function() {
 			top: "-185px",
 			},10200)
 		$("#pic8_a").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 		$('#pic8_a').hide(0);
 	});
@@ -222,7 +235,7 @@ $('#i').click(function() {
 			},10000)
 		$("#pic9").hide(0);
 		$("#pic9").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 
 	$("#i").click(function(){
@@ -231,7 +244,7 @@ $('#i').click(function() {
 			top: "-185px",
 			},10200)
 		$("#pic9_a").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 		$('#pic9_a').hide(0);
 	});
@@ -248,7 +261,7 @@ $('#j').click(function() {
 			},10100)
 		$("#pic10").hide(0);
 		$("#pic10").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 
 	$("#j").click(function(){
@@ -257,7 +270,7 @@ $('#j').click(function() {
 			top: "-185px",
 			},10200)
 		$("#pic10_a").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 		$('#pic10_a').hide(0);
 	});
@@ -274,7 +287,7 @@ $('#k').click(function() {
 			},10150)
 		$("#pic11").hide(0);
 		$("#pic11").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 
 	$("#k").click(function(){
@@ -283,7 +296,7 @@ $('#k').click(function() {
 			top: "-185px",
 			},10150)
 		$("#pic11_a").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 		$('#pic11_a').hide(0);
 	});
@@ -300,7 +313,7 @@ $('#l').click(function() {
 			},10200)
 		$("#pic12").hide(0);
 		$("#pic12").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 
 	$("#l").click(function(){
@@ -309,7 +322,7 @@ $('#l').click(function() {
 			top: "-185px",
 			},10200)
 		$("#pic12_a").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 		$('#pic12_a').hide(0);
 	});
@@ -326,7 +339,7 @@ $('#m').click(function() {
 			},10050)
 		$("#pic13").hide(0);
 		$("#pic13").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 
 	$("#m").click(function(){
@@ -335,7 +348,7 @@ $('#m').click(function() {
 			top: "-185px",
 			},10050)
 		$("#pic13_a").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 		$('#pic13_a').hide(0);
 	});
@@ -352,7 +365,7 @@ $('#n').click(function() {
 			},10075)
 		$("#pic14").hide(0);
 		$("#pic14").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 
 	$("#n").click(function(){
@@ -361,14 +374,14 @@ $('#n').click(function() {
 			top: "-185px",
 			},10075)
 		$("#pic14_a").animate({
-			top: "460px",
+			top: "75%",
 		}, 0);
 		$('#pic14_a').hide(0);
 	});
 
 });
 
-function myFunction() {
+/*function myFunction() {
     $('#pic1').stop(50);
 	$('#pic2').stop(50);
 	$('#pic3').stop(50);
@@ -383,7 +396,7 @@ function myFunction() {
 	$('#pic12').stop(50);
 	$('#pic13').stop(50);
 	$('#pic14').stop(50);
-}
+}*/
 
 
 /*$('.clickable2').click(function() {
@@ -404,6 +417,5 @@ function myFunction() {
 })*/
 
 
-//var images = [ "#pic1" "#pic2" "#pic3" "#pic4" "#pic5" "#pic6" "#pic7" "#pic8" "#pic9" "#pic10" "#pic11" "#pic12" "#pic13" "#pic14" ];
 
 });
