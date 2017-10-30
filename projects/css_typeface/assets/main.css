@@ -47,6 +47,7 @@ body {
 	position: absolute;
 	z-index: 3;
 	left: 5px;
+	cursor:pointer;
 }
 
 .pixel_14 {
@@ -346,7 +347,8 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 13.5px;
-	top: 16.5px;
+	top: 8.5px;
+
 }
 
 .pixel_2n {
@@ -578,6 +580,7 @@ body {
 	position: absolute;
 	z-index: 3;
 	left: 133px;
+	cursor:pointer;
 }
 
 .pixel_9 {
@@ -870,7 +873,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 141.5px;
-	top: 16.5px;
+	top: 8.5px;
 }
 
 .pixel_2i {
@@ -1102,6 +1105,7 @@ body {
 	position: absolute;
 	z-index: 3;
 	left: 266px;
+	cursor:pointer;
 }
 
 .pixel_6 {
@@ -1394,7 +1398,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 274.5px;
-	top: 16.5px;
+	top: 8.5px;
 }
 
 .pixel_2f {
@@ -1626,6 +1630,7 @@ body {
 	position: absolute;
 	z-index: 3;
 	left: 402.5px;
+	cursor:pointer;
 }
 
 .pixel_12 {
@@ -1918,7 +1923,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 411px;
-	top: 16.5px;
+	top: 8.5px;
 }
 
 .pixel_2l {
@@ -2150,6 +2155,7 @@ body {
 	position: absolute;
 	z-index: 3;
 	left: 538.5px;
+	cursor:pointer;
 }
 
 .pixel_7 {
@@ -2442,7 +2448,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 547px;
-	top: 16.5px;
+	top: 8.5px;
 }
 
 .pixel_2g {
@@ -2674,6 +2680,7 @@ body {
 	position: absolute;
 	z-index: 3;
 	left: 674.5px;
+	cursor:pointer;
 }
 
 .pixel_18 {
@@ -2965,7 +2972,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 683px;
-	top: 16.5px;
+	top: 8.5px;
 }
 
 .pixel_2r {
@@ -3197,6 +3204,7 @@ body {
 	position: absolute;
 	z-index: 3;
 	left: 810.5px;
+	cursor:pointer;
 }
 
 .pixel_8 {
@@ -3489,7 +3497,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 819px;
-	top: 16.5px;
+	top: 8.5px;
 }
 
 .pixel_2h {
@@ -3721,6 +3729,7 @@ body {
 	position: absolute;
 	z-index: 3;
 	left: 946.5px;
+	cursor:pointer;
 }
 
 .pixel_19 {
@@ -4012,7 +4021,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 955px;
-	top: 16.5px;
+	top: 8.5px;
 }
 
 .pixel_2s {
@@ -4244,6 +4253,7 @@ body {
 	position: absolute;
 	z-index: 3;
 	left: 1082.5px;
+	cursor:pointer;
 }
 
 .pixel_4 {
@@ -4536,7 +4546,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 1091px;
-	top: 16.5px;
+	top: 8.5px;
 }
 
 .pixel_2d {
@@ -4769,6 +4779,7 @@ body {
 	z-index: 3;
 	left: 5px;
 	top: 172px;
+	cursor:pointer;
 }
 
 .pixel_22 {
@@ -5293,6 +5304,7 @@ body {
 	z-index: 3;
 	left: 135px;
 	top: 172px;
+	cursor:pointer;
 }
 
 .pixel_16 {
@@ -5818,6 +5830,7 @@ body {
 	z-index: 3;
 	left: 267px;
 	top: 172px;
+	cursor:pointer;
 }
 
 .pixel_10 {
@@ -6343,6 +6356,7 @@ body {
 	z-index: 3;
 	left: 538px;
 	top: 172px;
+	cursor:pointer;
 }
 
 .pixel_21 {
@@ -6867,6 +6881,7 @@ body {
 	z-index: 3;
 	left: 808px;
 	top: 172px;
+	cursor:pointer;
 }
 
 .pixel_25 {
@@ -7391,6 +7406,7 @@ body {
 	z-index: 3;
 	left: 946px;
 	top: 172px;
+	cursor:pointer;
 }
 
 .pixel_5 {
@@ -7916,6 +7932,7 @@ body {
 	z-index: 3;
 	left: 402px;
 	top: 344px;
+	cursor:pointer;
 }
 
 .pixel_2 {
@@ -8443,6 +8460,7 @@ body {
 	z-index: 3;
 	left: 1082px;
 	top: 172px;
+	cursor:pointer;
 }
 
 .pixel_3 {
@@ -8968,6 +8986,7 @@ body {
 	z-index: 3;
 	left: 944px;
 	top: 344px;
+	cursor:pointer;
 }
 
 .pixel_11 {
@@ -9493,6 +9512,7 @@ body {
 	z-index: 3;
 	left: 402px;
 	top: 172px;
+	cursor:pointer;
 }
 
 .pixel_13 {
@@ -10018,6 +10038,7 @@ body {
 	z-index: 3;
 	left: 674px;
 	top: 172px;
+	cursor:pointer;
 }
 
 .pixel_15 {
@@ -10543,6 +10564,7 @@ body {
 	z-index: 3;
 	left: 5px;
 	top: 344px;
+	cursor:pointer;
 }
 
 .pixel {
@@ -11090,6 +11112,7 @@ body {
 	z-index: 3;
 	left: 136px;
 	top: 344px;
+	cursor:pointer;
 }
 
 .pixel_17 {
@@ -11615,6 +11638,7 @@ body {
 	z-index: 3;
 	left: 267px;
 	top: 344px;
+	cursor:pointer;
 }
 
 .pixel_20 {
@@ -12139,6 +12163,7 @@ body {
 	z-index: 3;
 	left: 810px;
 	top: 344px;
+	cursor:pointer;
 }
 
 .pixel_23 {
@@ -12663,6 +12688,7 @@ body {
 	z-index: 3;
 	left: 537px;
 	top: 344px;
+	cursor:pointer;
 }
 
 .pixel_24 {
@@ -13188,6 +13214,7 @@ body {
 	z-index: 3;
 	left: 672px;
 	top: 344px;
+	cursor:pointer;
 }
 
 .pixel_26 {
@@ -13712,6 +13739,7 @@ body {
 	z-index: 3;
 	left: 1080px;
 	top: 344px;
+	cursor:pointer;
 }
 
 .pixel_27 {
@@ -14236,6 +14264,7 @@ body {
 	z-index: 3;
 	left: 5px;
 	top: 516px;
+	cursor:pointer;
 }
 
 .pixel_28 {
@@ -14760,6 +14789,7 @@ body {
 	z-index: 3;
 	left: 136px;
 	top: 516px;
+	cursor:pointer;
 }
 
 .pixel_29 {
@@ -15284,6 +15314,7 @@ body {
 	z-index: 3;
 	left: 268px;
 	top: 516px;
+	cursor:pointer;
 }
 
 .pixel_30 {
@@ -15808,6 +15839,7 @@ body {
 	z-index: 3;
 	left: 403px;
 	top: 516px;
+	cursor:pointer;
 }
 
 .pixel_31 {
@@ -16332,6 +16364,7 @@ body {
 	z-index: 3;
 	left: 538px;
 	top: 516px;
+	cursor:pointer;
 }
 
 .pixel_32 {
@@ -16856,6 +16889,7 @@ body {
 	z-index: 3;
 	left: 673px;
 	top: 516px;
+	cursor:pointer;
 }
 
 .pixel_33 {
@@ -17380,6 +17414,7 @@ body {
 	z-index: 3;
 	left: 808px;
 	top: 516px;
+	cursor:pointer;
 }
 
 .pixel_34 {
@@ -17904,6 +17939,7 @@ body {
 	z-index: 3;
 	left: 943px;
 	top: 516px;
+	cursor:pointer;
 }
 
 .pixel_35 {
@@ -18429,6 +18465,7 @@ body {
 	z-index: 3;
 	left: 1078px;
 	top: 516px;
+	cursor:pointer;
 }
 
 .pixel_36 {
@@ -18954,6 +18991,7 @@ body {
 	z-index: 3;
 	left: 5px;
 	top: 688px;
+	cursor:pointer;
 }
 
 .pixel_37 {
@@ -19479,6 +19517,7 @@ body {
 	z-index: 3;
 	left: 136px;
 	top: 688px;
+	cursor:pointer;
 }
 
 .pixel_38 {
@@ -20005,6 +20044,7 @@ body {
 	z-index: 3;
 	left: 269px;
 	top: 688px;
+	cursor:pointer;
 }
 
 .pixel_39 {
@@ -20530,6 +20570,7 @@ body {
 	z-index: 3;
 	left: 403px;
 	top: 688px;
+	cursor:pointer;
 }
 
 .pixel_40 {
@@ -21055,6 +21096,7 @@ body {
 	z-index: 3;
 	left: 537px;
 	top: 688px;
+	cursor:pointer;
 }
 
 .pixel_41 {
@@ -21579,6 +21621,7 @@ body {
 	z-index: 3;
 	left: 671px;
 	top: 688px;
+	cursor:pointer;
 }
 
 .pixel_42 {

@@ -10,7 +10,7 @@ $(document).ready(function(){
 		});*/
 
 
-/*$(".canvas").click(function() {
+/*$(".canvas").hover(function() {
 	$(".pixel").animate({
 		width: "12.2px",
 		height: "12.2px",
@@ -24,7 +24,7 @@ $(document).ready(function(){
 });*/
 
 //s
-$(".canvas").click(
+$(".canvas").hover(
 function(){
   $(".pixel").animate({
     width: "12.2px",
@@ -39,7 +39,7 @@ function(){
 });
 
 //a
-$(".canvas_n").click(
+$(".canvas_n").hover(
 function(){
   $(".pixel_14").animate({
     width: "12.2px",
@@ -54,7 +54,7 @@ function(){
 });
 
 
-$(".canvas_i").click(
+$(".canvas_i").hover(
 function(){
   $(".pixel_9").animate({
     width: "12.2px",
@@ -69,7 +69,7 @@ function(){
 });
 
 
-$(".canvas_f").click(
+$(".canvas_f").hover(
 function(){
   $(".pixel_6").animate({
     width: "12.2px",
@@ -84,7 +84,7 @@ function(){
 });
 
 
-$(".canvas_l").click(
+$(".canvas_l").hover(
 function(){
   $(".pixel_12").animate({
     width: "12.2px",
@@ -99,7 +99,7 @@ function(){
 });
 
 
-$(".canvas_g").click(
+$(".canvas_g").hover(
 function(){
   $(".pixel_7").animate({
     width: "12.2px",
@@ -114,7 +114,7 @@ function(){
 });
 
 
-$(".canvas_r").click(
+$(".canvas_r").hover(
 function(){
   $(".pixel_18").animate({
     width: "12.2px",
@@ -129,7 +129,7 @@ function(){
 });
 
 
-$(".canvas_h").click(
+$(".canvas_h").hover(
 function(){
   $(".pixel_8").animate({
     width: "12.2px",
@@ -144,7 +144,7 @@ function(){
 });
 
 
-$(".canvas_s").click(
+$(".canvas_s").hover(
 function(){
   $(".pixel_19").animate({
     width: "12.2px",
@@ -159,7 +159,7 @@ function(){
 });
 
 
-$(".canvas_d").click(
+$(".canvas_d").hover(
 function(){
   $(".pixel_4").animate({
     width: "12.2px",
@@ -174,7 +174,7 @@ function(){
 });
 
 
-$(".canvas_v").click(
+$(".canvas_v").hover(
 function(){
   $(".pixel_22").animate({
     width: "12.2px",
@@ -189,7 +189,7 @@ function(){
 });
 
 
-$(".canvas_p").click(
+$(".canvas_p").hover(
 function(){
   $(".pixel_16").animate({
     width: "12.2px",
@@ -204,7 +204,7 @@ function(){
 });
 
 
-$(".canvas_j").click(
+$(".canvas_j").hover(
 function(){
   $(".pixel_10").animate({
     width: "12.2px",
@@ -219,7 +219,7 @@ function(){
 });
 
 
-$(".canvas_u").click(
+$(".canvas_u").hover(
 function(){
   $(".pixel_21").animate({
     width: "12.2px",
@@ -234,7 +234,7 @@ function(){
 });
 
 
-$(".canvas_y").click(
+$(".canvas_y").hover(
 function(){
   $(".pixel_25").animate({
     width: "12.2px",
@@ -249,7 +249,7 @@ function(){
 });
 
 
-$(".canvas_e").click(
+$(".canvas_e").hover(
 function(){
   $(".pixel_5").animate({
     width: "12.2px",
@@ -264,7 +264,7 @@ function(){
 });
 
 
-$(".canvas_b").click(
+$(".canvas_b").hover(
 function(){
   $(".pixel_2").animate({
     width: "12.2px",
@@ -279,7 +279,7 @@ function(){
 });
 
 
-$(".canvas_c").click(
+$(".canvas_c").hover(
 function(){
   $(".pixel_3").animate({
     width: "12.2px",
@@ -294,7 +294,7 @@ function(){
 });
 
 
-$(".canvas_k").click(
+$(".canvas_k").hover(
 function(){
   $(".pixel_11").animate({
     width: "12.2px",
@@ -309,7 +309,7 @@ function(){
 });
 
 
-$(".canvas_m").click(
+$(".canvas_m").hover(
 function(){
   $(".pixel_13").animate({
     width: "12.2px",
@@ -324,7 +324,7 @@ function(){
 });
 
 
-$(".canvas_o").click(
+$(".canvas_o").hover(
 function(){
   $(".pixel_15").animate({
     width: "12.2px",
@@ -339,7 +339,7 @@ function(){
 });
 
 
-$(".canvas_q").click(
+$(".canvas_q").hover(
 function(){
   $(".pixel_17").animate({
     width: "12.2px",
@@ -354,7 +354,7 @@ function(){
 });
 
 
-$(".canvas_t").click(
+$(".canvas_t").hover(
 function(){
   $(".pixel_20").animate({
     width: "12.2px",
@@ -369,7 +369,7 @@ function(){
 });
 
 
-$(".canvas_w").click(
+$(".canvas_w").hover(
 function(){
   $(".pixel_23").animate({
     width: "12.2px",
@@ -384,7 +384,7 @@ function(){
 });
 
 
-$(".canvas_x").click(
+$(".canvas_x").hover(
 function(){
   $(".pixel_24").animate({
     width: "12.2px",
@@ -399,7 +399,7 @@ function(){
 });
 
 
-$(".canvas_z").click(
+$(".canvas_z").hover(
 function(){
   $(".pixel_26").animate({
     width: "12.2px",
@@ -414,7 +414,7 @@ function(){
 });
 
 
-$(".canvas_ab").click(
+$(".canvas_ab").hover(
 function(){
   $(".pixel_27").animate({
     width: "12.2px",
@@ -429,7 +429,7 @@ function(){
 });
 
 
-$(".canvas_ac").click(
+$(".canvas_ac").hover(
 function(){
   $(".pixel_28").animate({
     width: "12.2px",
@@ -444,7 +444,7 @@ function(){
 });
 
 
-$(".canvas_ad").click(
+$(".canvas_ad").hover(
 function(){
   $(".pixel_29").animate({
     width: "12.2px",
@@ -459,7 +459,7 @@ function(){
 });
 
 
-$(".canvas_ae").click(
+$(".canvas_ae").hover(
 function(){
   $(".pixel_30").animate({
     width: "12.2px",
@@ -474,7 +474,7 @@ function(){
 });
 
 
-$(".canvas_af").click(
+$(".canvas_af").hover(
 function(){
   $(".pixel_31").animate({
     width: "12.2px",
@@ -489,7 +489,7 @@ function(){
 });
 
 
-$(".canvas_ag").click(
+$(".canvas_ag").hover(
 function(){
   $(".pixel_32").animate({
     width: "12.2px",
@@ -504,7 +504,7 @@ function(){
 });
 
 
-$(".canvas_ah").click(
+$(".canvas_ah").hover(
 function(){
   $(".pixel_33").animate({
     width: "12.2px",
@@ -519,7 +519,7 @@ function(){
 });
 
 
-$(".canvas_ai").click(
+$(".canvas_ai").hover(
 function(){
   $(".pixel_34").animate({
     width: "12.2px",
@@ -534,7 +534,7 @@ function(){
 });
 
 
-$(".canvas_aj").click(
+$(".canvas_aj").hover(
 function(){
   $(".pixel_35").animate({
     width: "12.2px",
@@ -549,7 +549,7 @@ function(){
 });
 
 
-$(".canvas_ak").click(
+$(".canvas_ak").hover(
 function(){
   $(".pixel_36").animate({
     width: "12.2px",
@@ -564,7 +564,7 @@ function(){
 });
 
 
-$(".canvas_al").click(
+$(".canvas_al").hover(
 function(){
   $(".pixel_37").animate({
     width: "12.2px",
@@ -579,7 +579,7 @@ function(){
 });
 
 
-$(".canvas_am").click(
+$(".canvas_am").hover(
 function(){
   $(".pixel_38").animate({
     width: "12.2px",
@@ -594,7 +594,7 @@ function(){
 });
 
 
-$(".canvas_an").click(
+$(".canvas_an").hover(
 function(){
   $(".pixel_39").animate({
     width: "12.2px",
@@ -609,7 +609,7 @@ function(){
 });
 
 
-$(".canvas_ao").click(
+$(".canvas_ao").hover(
 function(){
   $(".pixel_40").animate({
     width: "12.2px",
@@ -624,7 +624,7 @@ function(){
 });
 
 
-$(".canvas_ap").click(
+$(".canvas_ap").hover(
 function(){
   $(".pixel_41").animate({
     width: "12.2px",
@@ -639,7 +639,7 @@ function(){
 });
 
 
-$(".canvas_aq").click(
+$(".canvas_aq").hover(
 function(){
   $(".pixel_42").animate({
     width: "12.2px",
