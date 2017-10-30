@@ -6,7 +6,7 @@ body {
 }
 
 @-webkit-keyframes rotatemove {
-    from {-webkit-transform: rotate(0deg);}
+    from {-webkit-transform: rotate(45deg);}
     to {-webkit-transform: rotate(360deg);}
 }
 
@@ -24,25 +24,25 @@ body {
 }
 
 .pixel_14 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
-  background-color: pink;
-  margin: 2.5px;
+  background-color: #9f3a86;
+  margin: 7px;
   z-index: 3;
-  -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
-.pixel_14.rotated {
+/*.pixel_14.rotated {
     -webkit-transform : rotate(66deg); 
     -moz-transform : rotate(66deg); 
     -ms-transform : rotate(66deg); 
     -o-transform : rotate(66deg); 
-    transform : rotate(66deg); 
+    transform : rotate(66deg);*/
 }
 
 	/*row1*/
@@ -325,13 +325,17 @@ body {
 }
 
 .pixel_2n {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -552,13 +556,17 @@ body {
 }
 
 .pixel_9 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -841,13 +849,17 @@ body {
 }
 
 .pixel_2i {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -1068,13 +1080,17 @@ body {
 }
 
 .pixel_6 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -1357,13 +1373,17 @@ body {
 }
 
 .pixel_2f {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -1584,13 +1604,17 @@ body {
 }
 
 .pixel_12 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -1873,13 +1897,17 @@ body {
 }
 
 .pixel_2l {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -2100,13 +2128,17 @@ body {
 }
 
 .pixel_7 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -2389,13 +2421,17 @@ body {
 }
 
 .pixel_2g {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -2616,13 +2652,17 @@ body {
 }
 
 .pixel_18 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -2904,13 +2944,17 @@ body {
 }
 
 .pixel_2r {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -3131,13 +3175,17 @@ body {
 }
 
 .pixel_8 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -3420,13 +3468,17 @@ body {
 }
 
 .pixel_2h {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -3647,13 +3699,17 @@ body {
 }
 
 .pixel_19 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -3935,13 +3991,17 @@ body {
 }
 
 .pixel_2s {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -4162,13 +4222,17 @@ body {
 }
 
 .pixel_4 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -4451,13 +4515,17 @@ body {
 }
 
 .pixel_2d {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -4679,13 +4747,17 @@ body {
 }
 
 .pixel_22 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -4967,13 +5039,17 @@ body {
 }
 
 .pixel_2v {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -5195,13 +5271,17 @@ body {
 }
 
 .pixel_16 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -5484,13 +5564,17 @@ body {
 }
 
 .pixel_2p {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -5712,13 +5796,17 @@ body {
 }
 
 .pixel_10 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -6001,13 +6089,17 @@ body {
 }
 
 .pixel_2j {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -6229,13 +6321,17 @@ body {
 }
 
 .pixel_21 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -6517,13 +6613,17 @@ body {
 }
 
 .pixel_2u {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -6745,13 +6845,17 @@ body {
 }
 
 .pixel_25 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -7033,13 +7137,17 @@ body {
 }
 
 .pixel_2y {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -7261,13 +7369,17 @@ body {
 }
 
 .pixel_5 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -7550,13 +7662,17 @@ body {
 }
 
 .pixel_2e {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -7778,13 +7894,17 @@ body {
 }
 
 .pixel_2 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -8067,13 +8187,17 @@ body {
 }
 
 .pixel_2b {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -8297,13 +8421,17 @@ body {
 }
 
 .pixel_3 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -8586,13 +8714,17 @@ body {
 }
 
 .pixel_2c {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -8814,13 +8946,17 @@ body {
 }
 
 .pixel_11 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -9103,13 +9239,17 @@ body {
 }
 
 .pixel_2k {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -9331,13 +9471,17 @@ body {
 }
 
 .pixel_13 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -9620,13 +9764,17 @@ body {
 }
 
 .pixel_2m {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -9848,13 +9996,17 @@ body {
 }
 
 .pixel_15 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -10137,13 +10289,17 @@ body {
 }
 
 .pixel_2o {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -10364,23 +10520,18 @@ body {
 	top: 344px;
 }
 
-/*.canvas:hover{
-	animation: rotatecanvas 3s infinite;
-}
-
-@-webkit-keyframes rotatecanvas {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(180deg);}
-}*/
-
 .pixel {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
   transform: rotate(45deg) /*scale(.2,.2)*/;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -10653,6 +10804,14 @@ body {
 	background-color: #9f3a86;
 	}
 
+/*.pixel:hover{
+  transform: scale(1.25);
+  float: left;
+  margin: 7px;
+  z-index: 3;
+  animation: rotatemove 1s infinite;
+  background-color: #00E8F0;
+}*/
 
 
 
@@ -10666,14 +10825,18 @@ body {
 }
 
 .pixel_b {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
   /*transform: scale(.2,.2);*/
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -10883,6 +11046,16 @@ body {
 		background-color: #eaabcd;
 	}
 
+/*.pixel_b:hover{
+  width: 3.2px;
+  height: 3.2px;
+  float: left;
+  background-color: #00E8F0;
+  margin: 7px;
+  z-index: 2;
+  animation: rotatemove 1s infinite;
+}*/
+
 
 
 .canvas_q {
@@ -10895,13 +11068,17 @@ body {
 }
 
 .pixel_17 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -11184,13 +11361,17 @@ body {
 }
 
 .pixel_2q {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -11412,13 +11593,17 @@ body {
 }
 
 .pixel_20 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -11700,13 +11885,17 @@ body {
 }
 
 .pixel_2t {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -11928,13 +12117,17 @@ body {
 }
 
 .pixel_23 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -12216,13 +12409,17 @@ body {
 }
 
 .pixel_2w {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -12444,13 +12641,17 @@ body {
 }
 
 .pixel_24 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -12732,13 +12933,17 @@ body {
 }
 
 .pixel_2x {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -12961,13 +13166,17 @@ body {
 }
 
 .pixel_26 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -13249,13 +13458,17 @@ body {
 }
 
 .pixel_2z {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -13477,13 +13690,17 @@ body {
 }
 
 .pixel_27 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -13765,13 +13982,17 @@ body {
 }
 
 .pixel_2ab {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -13993,13 +14214,17 @@ body {
 }
 
 .pixel_28 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -14281,13 +14506,17 @@ body {
 }
 
 .pixel_2ac {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -14509,13 +14738,17 @@ body {
 }
 
 .pixel_29 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -14797,13 +15030,17 @@ body {
 }
 
 .pixel_2ad {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -15025,13 +15262,17 @@ body {
 }
 
 .pixel_30 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -15313,13 +15554,17 @@ body {
 }
 
 .pixel_2ae {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -15541,13 +15786,17 @@ body {
 }
 
 .pixel_31 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -15829,13 +16078,17 @@ body {
 }
 
 .pixel_2af {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -16057,13 +16310,17 @@ body {
 }
 
 .pixel_32 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -16345,13 +16602,17 @@ body {
 }
 
 .pixel_2ag {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -16573,13 +16834,17 @@ body {
 }
 
 .pixel_33 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -16861,13 +17126,17 @@ body {
 }
 
 .pixel_2ah {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -17089,13 +17358,17 @@ body {
 }
 
 .pixel_34 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -17377,13 +17650,17 @@ body {
 }
 
 .pixel_2ai {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -17605,13 +17882,17 @@ body {
 }
 
 .pixel_35 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -17893,13 +18174,17 @@ body {
 }
 
 .pixel_2aj {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -18122,13 +18407,17 @@ body {
 }
 
 .pixel_36 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -18410,13 +18699,17 @@ body {
 }
 
 .pixel_2ak {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -18639,13 +18932,17 @@ body {
 }
 
 .pixel_37 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -18927,13 +19224,17 @@ body {
 }
 
 .pixel_2al {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -19156,13 +19457,17 @@ body {
 }
 
 .pixel_38 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -19444,13 +19749,17 @@ body {
 }
 
 .pixel_2am {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -19674,13 +19983,17 @@ body {
 }
 
 .pixel_39 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -19962,13 +20275,17 @@ body {
 }
 
 .pixel_2an {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -20191,13 +20508,17 @@ body {
 }
 
 .pixel_40 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -20479,13 +20800,17 @@ body {
 }
 
 .pixel_2ao {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -20708,13 +21033,17 @@ body {
 }
 
 .pixel_41 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -20996,13 +21325,17 @@ body {
 }
 
 .pixel_2ap {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -21224,13 +21557,17 @@ body {
 }
 
 .pixel_42 {
-  width: 12.2px;
-  height: 12.2px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: pink;
-  margin: 2.5px;
+  margin: 7px;
   z-index: 3;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
@@ -21512,13 +21849,17 @@ body {
 }
 
 .pixel_2aq {
-  width: 12.8px;
-  height: 12.8px;
+  width: 3.2px;
+  height: 3.2px;
   float: left;
   transform: rotate(45deg);
   background-color: blue;
-  margin: 2.2px;
+  margin: 7px;
   z-index: 2;
+  -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 	/*row1*/
