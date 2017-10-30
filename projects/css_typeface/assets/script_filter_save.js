@@ -26,12 +26,12 @@ $(document).ready(function(){
 //s
 $(".canvas").hover(
 function(){
-  $(".pixel").animate({
+  $(".pixel").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_b").animate({
+  $(".pixel_b").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -54,12 +54,12 @@ function() {
 //a
 $(".canvas_n").hover(
 function(){
-  $(".pixel_14").animate({
+  $(".pixel_14").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2n").animate({
+  $(".pixel_2n").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -82,12 +82,12 @@ function() {
 
 $(".canvas_i").hover(
 function(){
-  $(".pixel_9").animate({
+  $(".pixel_9").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2i").animate({
+  $(".pixel_2i").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -110,12 +110,12 @@ function() {
 
 $(".canvas_f").hover(
 function(){
-  $(".pixel_6").animate({
+  $(".pixel_6").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2f").animate({
+  $(".pixel_2f").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -138,12 +138,12 @@ function() {
 
 $(".canvas_l").hover(
 function(){
-  $(".pixel_12").animate({
+  $(".pixel_12").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2l").animate({
+  $(".pixel_2l").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -166,12 +166,12 @@ function() {
 
 $(".canvas_g").hover(
 function(){
-  $(".pixel_7").animate({
+  $(".pixel_7").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2g").animate({
+  $(".pixel_2g").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -194,12 +194,12 @@ function() {
 
 $(".canvas_r").hover(
 function(){
-  $(".pixel_18").animate({
+  $(".pixel_18").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2r").animate({
+  $(".pixel_2r").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -222,12 +222,12 @@ function() {
 
 $(".canvas_h").hover(
 function(){
-  $(".pixel_8").animate({
+  $(".pixel_8").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2h").animate({
+  $(".pixel_2h").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -250,12 +250,12 @@ function() {
 
 $(".canvas_s").hover(
 function(){
-  $(".pixel_19").animate({
+  $(".pixel_19").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2s").animate({
+  $(".pixel_2s").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -278,12 +278,12 @@ function() {
 
 $(".canvas_d").hover(
 function(){
-  $(".pixel_4").animate({
+  $(".pixel_4").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2d").animate({
+  $(".pixel_2d").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -306,12 +306,12 @@ function() {
 
 $(".canvas_v").hover(
 function(){
-  $(".pixel_22").animate({
+  $(".pixel_22").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2v").animate({
+  $(".pixel_2v").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -334,12 +334,12 @@ function() {
 
 $(".canvas_p").hover(
 function(){
-  $(".pixel_16").animate({
+  $(".pixel_16").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2p").animate({
+  $(".pixel_2p").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -362,12 +362,12 @@ function() {
 
 $(".canvas_j").hover(
 function(){
-  $(".pixel_10").animate({
+  $(".pixel_10").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2j").animate({
+  $(".pixel_2j").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -390,12 +390,12 @@ function() {
 
 $(".canvas_u").hover(
 function(){
-  $(".pixel_21").animate({
+  $(".pixel_21").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2u").animate({
+  $(".pixel_2u").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -418,12 +418,12 @@ function() {
 
 $(".canvas_y").hover(
 function(){
-  $(".pixel_25").animate({
+  $(".pixel_25").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2y").animate({
+  $(".pixel_2y").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -446,12 +446,12 @@ function() {
 
 $(".canvas_e").hover(
 function(){
-  $(".pixel_5").animate({
+  $(".pixel_5").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2e").animate({
+  $(".pixel_2e").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -474,12 +474,12 @@ function() {
 
 $(".canvas_b").hover(
 function(){
-  $(".pixel_2").animate({
+  $(".pixel_2").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2b").animate({
+  $(".pixel_2b").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -502,12 +502,12 @@ function() {
 
 $(".canvas_c").hover(
 function(){
-  $(".pixel_3").animate({
+  $(".pixel_3").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2c").animate({
+  $(".pixel_2c").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -530,12 +530,12 @@ function() {
 
 $(".canvas_k").hover(
 function(){
-  $(".pixel_11").animate({
+  $(".pixel_11").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2k").animate({
+  $(".pixel_2k").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -558,12 +558,12 @@ function() {
 
 $(".canvas_m").hover(
 function(){
-  $(".pixel_13").animate({
+  $(".pixel_13").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2m").animate({
+  $(".pixel_2m").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -586,12 +586,12 @@ function() {
 
 $(".canvas_o").hover(
 function(){
-  $(".pixel_15").animate({
+  $(".pixel_15").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2o").animate({
+  $(".pixel_2o").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -614,12 +614,12 @@ function() {
 
 $(".canvas_q").hover(
 function(){
-  $(".pixel_17").animate({
+  $(".pixel_17").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2q").animate({
+  $(".pixel_2q").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -642,12 +642,12 @@ function() {
 
 $(".canvas_t").hover(
 function(){
-  $(".pixel_20").animate({
+  $(".pixel_20").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2t").animate({
+  $(".pixel_2t").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -670,12 +670,12 @@ function() {
 
 $(".canvas_w").hover(
 function(){
-  $(".pixel_23").animate({
+  $(".pixel_23").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2w").animate({
+  $(".pixel_2w").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -698,12 +698,12 @@ function() {
 
 $(".canvas_x").hover(
 function(){
-  $(".pixel_24").animate({
+  $(".pixel_24").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2x").animate({
+  $(".pixel_2x").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -726,12 +726,12 @@ function() {
 
 $(".canvas_z").hover(
 function(){
-  $(".pixel_26").animate({
+  $(".pixel_26").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2z").animate({
+  $(".pixel_2z").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -754,12 +754,12 @@ function() {
 
 $(".canvas_ab").hover(
 function(){
-  $(".pixel_27").animate({
+  $(".pixel_27").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2ab").animate({
+  $(".pixel_2ab").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -782,12 +782,12 @@ function() {
 
 $(".canvas_ac").hover(
 function(){
-  $(".pixel_28").animate({
+  $(".pixel_28").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2ac").animate({
+  $(".pixel_2ac").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -810,12 +810,12 @@ function() {
 
 $(".canvas_ad").hover(
 function(){
-  $(".pixel_29").animate({
+  $(".pixel_29").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2ad").animate({
+  $(".pixel_2ad").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -838,12 +838,12 @@ function() {
 
 $(".canvas_ae").hover(
 function(){
-  $(".pixel_30").animate({
+  $(".pixel_30").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2ae").animate({
+  $(".pixel_2ae").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -866,12 +866,12 @@ function() {
 
 $(".canvas_af").hover(
 function(){
-  $(".pixel_31").animate({
+  $(".pixel_31").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2af").animate({
+  $(".pixel_2af").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -894,12 +894,12 @@ function() {
 
 $(".canvas_ag").hover(
 function(){
-  $(".pixel_32").animate({
+  $(".pixel_32").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2ag").animate({
+  $(".pixel_2ag").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -922,12 +922,12 @@ function() {
 
 $(".canvas_ah").hover(
 function(){
-  $(".pixel_33").animate({
+  $(".pixel_33").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2ah").animate({
+  $(".pixel_2ah").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -950,12 +950,12 @@ function() {
 
 $(".canvas_ai").hover(
 function(){
-  $(".pixel_34").animate({
+  $(".pixel_34").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2ai").animate({
+  $(".pixel_2ai").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -978,12 +978,12 @@ function() {
 
 $(".canvas_aj").hover(
 function(){
-  $(".pixel_35").animate({
+  $(".pixel_35").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2aj").animate({
+  $(".pixel_2aj").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -1006,12 +1006,12 @@ function() {
 
 $(".canvas_ak").hover(
 function(){
-  $(".pixel_36").animate({
+  $(".pixel_36").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2ak").animate({
+  $(".pixel_2ak").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -1034,12 +1034,12 @@ function() {
 
 $(".canvas_al").hover(
 function(){
-  $(".pixel_37").animate({
+  $(".pixel_37").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2al").animate({
+  $(".pixel_2al").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -1062,12 +1062,12 @@ function() {
 
 $(".canvas_am").hover(
 function(){
-  $(".pixel_38").animate({
+  $(".pixel_38").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2am").animate({
+  $(".pixel_2am").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -1090,12 +1090,12 @@ function() {
 
 $(".canvas_an").hover(
 function(){
-  $(".pixel_39").animate({
+  $(".pixel_39").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2an").animate({
+  $(".pixel_2an").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -1118,12 +1118,12 @@ function() {
 
 $(".canvas_ao").hover(
 function(){
-  $(".pixel_40").animate({
+  $(".pixel_40").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2ao").animate({
+  $(".pixel_2ao").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -1146,12 +1146,12 @@ function() {
 
 $(".canvas_ap").hover(
 function(){
-  $(".pixel_41").animate({
+  $(".pixel_41").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2ap").animate({
+  $(".pixel_2ap").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
@@ -1174,12 +1174,12 @@ function() {
 
 $(".canvas_aq").hover(
 function(){
-  $(".pixel_42").animate({
+  $(".pixel_42").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
   },0);
-  $(".pixel_2aq").animate({
+  $(".pixel_2aq").filter(':not(:animated)').animate({
     width: "12.2px",
 	height: "12.2px",
 	margin: "2.5px",
