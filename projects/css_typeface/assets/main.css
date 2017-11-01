@@ -1,7 +1,7 @@
 
 
 body {
-	width: 100%;
+	width: 960px;
 	height: 100%;
 	background-color: #F1EBFF;
 }
@@ -48,6 +48,7 @@ body {
 	z-index: 3;
 	left: 5px;
 	cursor:pointer;
+	top: 500px;
 }
 
 .pixel_14 {
@@ -347,7 +348,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 13.5px;
-	top: 8.5px;
+	top: 508.5px;
 
 }
 
@@ -581,6 +582,7 @@ body {
 	z-index: 3;
 	left: 133px;
 	cursor:pointer;
+	top: 500px;
 }
 
 .pixel_9 {
@@ -873,7 +875,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 141.5px;
-	top: 8.5px;
+	top: 508.5px;
 }
 
 .pixel_2i {
@@ -1106,6 +1108,7 @@ body {
 	z-index: 3;
 	left: 266px;
 	cursor:pointer;
+	top: 500px;
 }
 
 .pixel_6 {
@@ -1398,7 +1401,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 274.5px;
-	top: 8.5px;
+	top: 508.5px;
 }
 
 .pixel_2f {
@@ -1631,6 +1634,7 @@ body {
 	z-index: 3;
 	left: 402.5px;
 	cursor:pointer;
+	top: 500px;
 }
 
 .pixel_12 {
@@ -1923,7 +1927,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 411px;
-	top: 8.5px;
+	top: 508.5px;
 }
 
 .pixel_2l {
@@ -2156,6 +2160,7 @@ body {
 	z-index: 3;
 	left: 538.5px;
 	cursor:pointer;
+	top: 500px;;
 }
 
 .pixel_7 {
@@ -2448,7 +2453,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 547px;
-	top: 8.5px;
+	top: 508.5px;
 }
 
 .pixel_2g {
@@ -2681,6 +2686,7 @@ body {
 	z-index: 3;
 	left: 674.5px;
 	cursor:pointer;
+	top: 500px;;
 }
 
 .pixel_18 {
@@ -2972,7 +2978,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 683px;
-	top: 8.5px;
+	top: 508.5px;
 }
 
 .pixel_2r {
@@ -3205,6 +3211,7 @@ body {
 	z-index: 3;
 	left: 810.5px;
 	cursor:pointer;
+	top: 500px;
 }
 
 .pixel_8 {
@@ -3497,7 +3504,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	left: 819px;
-	top: 8.5px;
+	top: 508.5px;
 }
 
 .pixel_2h {
@@ -3728,7 +3735,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 946.5px;
+	left: 5px;
+	top: 672px;
 	cursor:pointer;
 }
 
@@ -4020,8 +4028,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 955px;
-	top: 8.5px;
+	left: 13.5px;
+	top: 680.5px;
 }
 
 .pixel_2s {
@@ -4252,7 +4260,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 1082.5px;
+	left: 133px;
+	top: 672px;
 	cursor:pointer;
 }
 
@@ -4545,8 +4554,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 1091px;
-	top: 8.5px;
+	left: 141.5px;
+	top: 680.5px;
 }
 
 .pixel_2d {
@@ -4777,8 +4786,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 5px;
-	top: 172px;
+	left: 266px;
+	top: 672px;
 	cursor:pointer;
 }
 
@@ -5070,8 +5079,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 13.5px;
-	top: 180.5px;
+	left: 274.5px;
+	top: 680.5px;
 }
 
 .pixel_2v {
@@ -5302,8 +5311,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 135px;
-	top: 172px;
+	left: 402.5px;
+	top: 672px;
 	cursor:pointer;
 }
 
@@ -5596,8 +5605,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 143.5px;
-	top: 180.5px;
+	left: 411px;
+	top: 680.5px;
 }
 
 .pixel_2p {
@@ -5828,8 +5837,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 267px;
-	top: 172px;
+	left: 538.5px;
+	top: 672px;
 	cursor:pointer;
 }
 
@@ -6122,8 +6131,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 275.5px;
-	top: 180.5px;
+	left: 547px;
+	top: 680.5px;
 }
 
 .pixel_2j {
@@ -6354,8 +6363,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 538px;
-	top: 172px;
+	left: 810.5px;
+	top: 672px;
 	cursor:pointer;
 }
 
@@ -6647,8 +6656,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 546.5px;
-	top: 180.5px;
+	left: 819px;
+	top: 680.5px;
 }
 
 .pixel_2u {
@@ -6879,8 +6888,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 808px;
-	top: 172px;
+	left: 133px;
+	top: 844px;
 	cursor:pointer;
 }
 
@@ -7172,8 +7181,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 816.5px;
-	top: 180.5px;
+	left: 141.5px;
+	top: 852.5px;
 }
 
 .pixel_2y {
@@ -7404,8 +7413,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 946px;
-	top: 172px;
+	left: 266px;
+	top: 844px;
 	cursor:pointer;
 }
 
@@ -7698,8 +7707,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 954.5px;
-	top: 180.5px;
+	left: 274.5px;
+	top: 852.5px;
 }
 
 .pixel_2e {
@@ -7930,8 +7939,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 402px;
-	top: 344px;
+	left: 5px;
+	top: 1016px;
 	cursor:pointer;
 }
 
@@ -8224,8 +8233,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 410.5px;
-	top: 352.5px;
+	left: 13.5px;
+	top: 1024.5px;
 }
 
 .pixel_2b {
@@ -8458,8 +8467,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 1082px;
-	top: 172px;
+	left: 402.5px;
+	top: 844px;
 	cursor:pointer;
 }
 
@@ -8752,8 +8761,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 1090.5px;
-	top: 180.5px;
+	left: 411px;
+	top: 852.5px;
 }
 
 .pixel_2c {
@@ -8984,8 +8993,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 944px;
-	top: 344px;
+	left: 538.5px;
+	top: 1016px;
 	cursor:pointer;
 }
 
@@ -9278,8 +9287,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 952.5px;
-	top: 352.5px;
+	left: 547px;
+	top: 1024.5px;
 }
 
 .pixel_2k {
@@ -9510,8 +9519,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 402px;
-	top: 172px;
+	left: 674.5px;
+	top: 672px;
 	cursor:pointer;
 }
 
@@ -9804,8 +9813,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 410.5px;
-	top: 180.5px;
+	left: 683px;
+	top: 680.5px;
 }
 
 .pixel_2m {
@@ -10036,8 +10045,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 674px;
-	top: 172px;
+	left: 5px;
+	top: 844px;
 	cursor:pointer;
 }
 
@@ -10330,8 +10339,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 682.5px;
-	top: 180.5px;
+	left: 13.5px;
+	top: 852.5px;
 }
 
 .pixel_2o {
@@ -10562,8 +10571,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 5px;
-	top: 344px;
+	left: 538.5px;
+	top: 844px;
 	cursor:pointer;
 }
 
@@ -10867,8 +10876,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 13.5px;
-	top: 353px;
+	left: 547px;
+	top: 853px;
 }
 
 .pixel_b {
@@ -11110,8 +11119,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 136px;
-	top: 344px;
+	left: 674.5px;
+	top: 844px;
 	cursor:pointer;
 }
 
@@ -11404,8 +11413,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 144.5px;
-	top: 352.5px;
+	left: 683px;
+	top: 852.5px;
 }
 
 .pixel_2q {
@@ -11636,8 +11645,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 267px;
-	top: 344px;
+	left: 810.5px;
+	top: 844px;
 	cursor:pointer;
 }
 
@@ -11929,8 +11938,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 275.5px;
-	top: 352.5px;
+	left: 819px;
+	top: 852.5px;
 }
 
 .pixel_2t {
@@ -12161,8 +12170,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 810px;
-	top: 344px;
+	left: 402.5px;
+	top: 1016px;
 	cursor:pointer;
 }
 
@@ -12454,8 +12463,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 818.5px;
-	top: 352.5px;
+	left: 411px;
+	top: 1024.5px;
 }
 
 .pixel_2w {
@@ -12686,8 +12695,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 537px;
-	top: 344px;
+	left: 133px;
+	top: 1016px;
 	cursor:pointer;
 }
 
@@ -12979,8 +12988,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 545.5px;
-	top: 352.5px;
+	left: 141.5px;
+	top: 1024.5px;
 }
 
 .pixel_2x {
@@ -13212,8 +13221,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 672px;
-	top: 344px;
+	left: 266px;
+	top: 1016px;
 	cursor:pointer;
 }
 
@@ -13505,8 +13514,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 680.5px;
-	top: 352.5px;
+	left: 274.5px;
+	top: 1024.5px;
 }
 
 .pixel_2z {
@@ -13737,8 +13746,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 1080px;
-	top: 344px;
+	left: 402.5px;
+	top: 1188px;
 	cursor:pointer;
 }
 
@@ -14030,8 +14039,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 1088.5px;
-	top: 352.5px;
+	left: 411px;
+	top: 1196.5px;
 }
 
 .pixel_2ab {
@@ -14262,8 +14271,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 5px;
-	top: 516px;
+	left: 674.5px;
+	top: 1016px;
 	cursor:pointer;
 }
 
@@ -14555,8 +14564,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 13.5px;
-	top: 524.5px;
+	left: 683px;
+	top: 1024.5px;
 }
 
 .pixel_2ac {
@@ -14787,8 +14796,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 136px;
-	top: 516px;
+	left: 810.5px;
+	top: 1016px;
 	cursor:pointer;
 }
 
@@ -15080,8 +15089,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 144.5px;
-	top: 524.5px;
+	left: 819px;
+	top: 1024.5px;
 }
 
 .pixel_2ad {
@@ -15312,8 +15321,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 268px;
-	top: 516px;
+	left: 5px;
+	top: 1188px;
 	cursor:pointer;
 }
 
@@ -15605,8 +15614,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 276.5px;
-	top: 524.5px;
+	left: 13.5px;
+	top: 1196.5px;
 }
 
 .pixel_2ae {
@@ -15837,8 +15846,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 403px;
-	top: 516px;
+	left: 133px;
+	top: 1188px;
 	cursor:pointer;
 }
 
@@ -16130,8 +16139,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 411.5px;
-	top: 524.5px;
+	left: 141.5px;
+	top: 1196.5px;
 }
 
 .pixel_2af {
@@ -16362,8 +16371,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 538px;
-	top: 516px;
+	left: 266px;
+	top: 1188px;
 	cursor:pointer;
 }
 
@@ -16655,8 +16664,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 546.5px;
-	top: 524.5px;
+	left: 274.5px;
+	top: 1196.5px;
 }
 
 .pixel_2ag {
@@ -16887,8 +16896,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 673px;
-	top: 516px;
+	left: 538.5px;
+	top: 1188px;
 	cursor:pointer;
 }
 
@@ -17180,8 +17189,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 681.5px;
-	top: 524.5px;
+	left: 547px;
+	top: 1196.5px;
 }
 
 .pixel_2ah {
@@ -17412,8 +17421,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 808px;
-	top: 516px;
+	left: 674.5px;
+	top: 1188px;
 	cursor:pointer;
 }
 
@@ -17705,8 +17714,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 816.5px;
-	top: 524.5px;
+	left: 683px;
+	top: 1196px;
 }
 
 .pixel_2ai {
@@ -17937,8 +17946,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 943px;
-	top: 516px;
+	left: 5px;
+	top: 1360px;
 	cursor:pointer;
 }
 
@@ -18230,8 +18239,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 951.5px;
-	top: 524.5px;
+	left: 13.5px;
+	top: 1368.5px;
 }
 
 .pixel_2aj {
@@ -18463,8 +18472,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 1078px;
-	top: 516px;
+	left: 133px;
+	top: 1360px;
 	cursor:pointer;
 }
 
@@ -18756,8 +18765,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 1086.5px;
-	top: 524.5px;
+	left: 141.5px;
+	top: 1368.5px;
 }
 
 .pixel_2ak {
@@ -18989,8 +18998,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 5px;
-	top: 688px;
+	left: 266px;
+	top: 1360px;
 	cursor:pointer;
 }
 
@@ -19282,8 +19291,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 13.5px;
-	top: 696.5px;
+	left: 274.5px;
+	top: 1368.5px;
 }
 
 .pixel_2al {
@@ -19515,8 +19524,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 136px;
-	top: 688px;
+	left: 402.5px;
+	top: 1360px;
 	cursor:pointer;
 }
 
@@ -19808,8 +19817,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 144.5px;
-	top: 696.5px;
+	left: 411px;
+	top: 1368.5px;
 }
 
 .pixel_2am {
@@ -20042,8 +20051,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 269px;
-	top: 688px;
+	left: 5px;
+	top: 1532px;
 	cursor:pointer;
 }
 
@@ -20335,8 +20344,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 277.5px;
-	top: 696.5px;
+	left: 13.5px;
+	top: 1540.5px;
 }
 
 .pixel_2an {
@@ -20568,8 +20577,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 403px;
-	top: 688px;
+	left: 133px;
+	top: 1532px;
 	cursor:pointer;
 }
 
@@ -20861,8 +20870,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 411.5px;
-	top: 696.5px;
+	left: 141.5px;
+	top: 1540.5px;
 }
 
 .pixel_2ao {
@@ -21094,8 +21103,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 537px;
-	top: 688px;
+	left: 266px;
+	top: 1532px;
 	cursor:pointer;
 }
 
@@ -21387,8 +21396,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 545.5px;
-	top: 696.5px;
+	left: 274.5px;
+	top: 1540.5px;
 }
 
 .pixel_2ap {
@@ -21619,8 +21628,8 @@ body {
 	height: 162px;
 	position: absolute;
 	z-index: 3;
-	left: 671px;
-	top: 688px;
+	left: 402.5px;
+	top: 1532px;
 	cursor:pointer;
 }
 
@@ -21912,8 +21921,8 @@ body {
 	height: 144px;
 	position: absolute;
 	z-index: 1;
-	left: 679.5px;
-	top: 696.5px;
+	left: 411px;
+	top: 1540.5px;
 }
 
 .pixel_2aq {
