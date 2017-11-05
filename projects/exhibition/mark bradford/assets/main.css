@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+
+}
+
+.canvas {
+	height: 590px;
+	width: 1140px;
+	left: 90px;
+}
+
+.numbers {
+ background-image: url("404_2.svg");
+ background-repeat: no-repeat;
+ background-position: center top;
+ margin-top: -40px;
+ height: 590px;
+ width: 1140px;
+ overflow: hidden;
+ position: absolute;
+ left: 90px;
+ z-index: 1;
+}
+
+
+#four1 {
+	position: absolute;
+	background-color: black;
+	z-index: 2;
+	width: 45px;
+	height: 155px;
+	left: 320px;
+	top: 127px;
+}
+
+#four1:hover{
+	animation: shake 3s infinite;
+}
+
+@keyframes shake {
+  from, to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+#four2{
+	width: 122px;
+	height: 43px;
+	top: 238px;
+	left: 371px;
+	z-index: 2;
+	position: absolute;
+	background-color: black;
+	}
+
+#four2:hover{
+	animation: shake 4s infinite;
+}
+
+#four3{
+	position: absolute;
+	background-color: black;
+	z-index: 2;
+	width: 45px;
+	height: 104px;
+	left: 448px;
+	top: 129px;
+}
+
+#four3:hover{
+	animation: shake 3.5s infinite;
+}
+
+#four4{
+	position: absolute;
+	background-color: black;
+	z-index: 2;
+	width: 45px;
+	height: 112px;
+	left: 448px;
+	top: 291px;
+}
+
+#four4:hover{
+	animation: shake 5s infinite;
+}
+
+
+#zero1{
+	position: absolute;
+	background-color: black;
+	z-index: 2;
+	width: 45px;
+	height: 221px;
+	left: 548px;
+	top: 127px;
+}
+
+#zero2{
+	position: absolute;
+	background-color: black;
+	z-index: 2;
+	width: 120px;
+	height: 45px;
+	left: 599px;
+	top: 127px;
+}
+
+#zero3{
+	position: absolute;
+	background-color: black;
+	z-index: 2;
+	width: 44px;
+	height: 223px;
+	left: 675px;
+	top: 177px;
+}
+
+#zero4{
+	position: absolute;
+	background-color: black;
+	z-index: 2;
+	width: 121px;
+	height: 44px;
+	left: 548px;
+	top: 356px;
+}
+
+
+
+#four1b{
+	position: absolute;
+	background-color: black;
+	z-index: 2;
+	width: 45px;
+	height: 155px;
+	left: 771px;
+	top: 127px;
+}
+
+#four2b{
+	width: 122px;
+	height: 43px;
+	top: 239px;
+	left: 822px;
+	z-index: 2;
+	position: absolute;
+	background-color: black;
+	}
+
+#four3b{
+	position: absolute;
+	background-color: black;
+	z-index: 2;
+	width: 45px;
+	height: 104px;
+	left: 899px;
+	top: 129px;
+}
+
+#four4b{
+	position: absolute;
+	background-color: black;
+	z-index: 2;
+	width: 45px;
+	height: 112px;
+	left: 899px;
+	top: 288px;
+}
