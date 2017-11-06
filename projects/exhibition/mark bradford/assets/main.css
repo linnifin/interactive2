@@ -3,7 +3,7 @@
 }
 
 body{
-
+	background-color: #fee466;
 }
 
 .canvas {
@@ -17,12 +17,34 @@ body{
  background-repeat: no-repeat;
  background-position: center top;
  margin-top: -40px;
- height: 590px;
+ height: 390px;
  width: 1140px;
  overflow: hidden;
  position: absolute;
  left: 90px;
  z-index: 1;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	cursor: hand;
+}
+
+a:hover{
+	color: #6A66FE;
+}
+
+.text {
+	height: 80px;
+	width: 700px;
+	position: absolute;
+	top: 470px;
+	left: 293px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Khula";
+	font-weight: 600;
 }
 
 
@@ -107,6 +129,10 @@ body{
 	top: 127px;
 }
 
+#zero1:hover{
+	animation: shake 2s infinite;
+}
+
 #zero2{
 	position: absolute;
 	background-color: black;
@@ -115,6 +141,10 @@ body{
 	height: 45px;
 	left: 599px;
 	top: 127px;
+}
+
+#zero2:hover{
+	animation: shake 4s infinite;
 }
 
 #zero3{
@@ -127,6 +157,10 @@ body{
 	top: 177px;
 }
 
+#zero3:hover{
+	animation: shake 3s infinite;
+}
+
 #zero4{
 	position: absolute;
 	background-color: black;
@@ -135,6 +169,10 @@ body{
 	height: 44px;
 	left: 548px;
 	top: 356px;
+}
+
+#zero4:hover{
+	animation: shake 5s infinite;
 }
 
 
@@ -149,6 +187,10 @@ body{
 	top: 127px;
 }
 
+#four1b:hover{
+	animation: shake 5s infinite;
+}
+
 #four2b{
 	width: 122px;
 	height: 43px;
@@ -158,6 +200,10 @@ body{
 	position: absolute;
 	background-color: black;
 	}
+
+#four2b:hover{
+	animation: shake 3s infinite;
+}
 
 #four3b{
 	position: absolute;
@@ -169,6 +215,10 @@ body{
 	top: 129px;
 }
 
+#four3b:hover{
+	animation: shake 2s infinite;
+}
+
 #four4b{
 	position: absolute;
 	background-color: black;
@@ -177,4 +227,8 @@ body{
 	height: 112px;
 	left: 899px;
 	top: 288px;
+}
+
+#four4b:hover{
+	animation: shake 4s infinite;
 }

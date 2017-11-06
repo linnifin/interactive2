@@ -23,10 +23,10 @@ body{
  text-align: center;
 }
 
-.fourofour:hover{
+/*.fourofour:hover{
 	font-family: "Abril Fatface", cursive;
 	font-size: 185px;
-}
+}*/
 
 .line1 {
 	top: 0px;
@@ -73,11 +73,11 @@ body{
 	z-index:5;
 }
 
-#home:hover{
+/*#home:hover{
 	font-family: "Abril Fatface", cursive;
 	letter-spacing: 3px;
 	font-size: 50px;
-}
+}*/
 
 #thepage {
 	position: absolute;
@@ -99,11 +99,12 @@ body{
 	z-index: 5;
 }
 
+/*
 #error:hover{
 	font-family: "Abril Fatface", cursive;
 	letter-spacing: 3px;
 	font-size: 50px;
-}
+}*/
 
 #portrait{
 	background-image: url(images/portrait.jpg);
