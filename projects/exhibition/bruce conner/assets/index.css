@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+
+}
+
+
+.circle_1{
+	background-image: url(images/circle_small_1.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	position: absolute;
+	left: 31.5%;
+	top: 19.5%;
+	width: 36%;
+	height: 63%;
+	z-index: 4;
+	animation: rotate_a;
+	overflow: hidden;
+}
+
+
+.circle_2{
+	background-image: url(images/circle_big_1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 85%;
+	position: absolute;
+	left: 26%;
+	top: 10%;
+	width: 47%;
+	height: 82%;
+
+}
+
+
+.detroit{
+	background-image: url(images/dedetroit.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	position: absolute;
+	top: 80%;
+	left: 7%;
+	width: 15%;
+	height: 30%;
+	border-radius: 75%;
+}
+
+
+.goodfriday{
+	background-image: url(images/goodfriday.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 135%;
+	position: absolute;
+	top: 84%;
+	left: 74%;
+	width: 17%;
+	height: 35%;
+	border-radius: 75%;
+}
+
+
+.drawing125{
+	background-image: url(images/drawing_125.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 109%;
+	position: absolute;
+	top: 111%;
+	left: 40%;
+	width: 20%;
+	height: 39%;
+	border-radius: 75%;
+}
