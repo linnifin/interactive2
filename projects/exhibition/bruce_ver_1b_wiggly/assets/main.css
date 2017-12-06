@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+
+}
+
+
+
+.fourofour {
+ font-family: "Roboto", "sans-serif";
+ font-weight: 900;
+ font-size: 200px;
+ margin: 0px;
+ height: 220px;
+ width: 350px;
+ overflow: hidden;
+ position: absolute;
+ float: left;
+ left: 60px;
+ z-index: 5;
+ text-align: center;
+}
+
+/*.fourofour:hover{
+	font-family: "Abril Fatface", cursive;
+	font-size: 185px;
+}*/
+
+.line1 {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: 3;
+}
+
+.line2 {
+	top: 125px;
+	left: 0px;
+	position: absolute;
+	z-index: 3;
+}
+
+.line3 {
+	top: 125px;
+	left: 325px;
+	position: absolute;
+	z-index: 3;
+}
+
+.line4 {
+	top: 150px;
+	left: 0px;
+	position: absolute;
+	z-index: 3;
+}
+
+.line5 {
+	top: 0px;
+	left: 900px;
+	position: absolute;
+	z-index: 3;
+}
+
+#home {
+	position: absolute;
+	left: 30px;
+	top: 455px;
+	font-family: "Roboto", "sans-serif";
+	font-weight: 900;
+	font-size: 55px;
+	z-index:5;
+}
+
+/*#home:hover{
+	font-family: "Abril Fatface", cursive;
+	letter-spacing: 3px;
+	font-size: 50px;
+}*/
+
+#thepage {
+	position: absolute;
+	left: 390px;
+	top: 485px;
+	font-family: "Cutive Mono", "monospace";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 45%;
+}
+
+#error{
+	position: absolute;
+	left: 550px;
+	top: 40px;
+	font-family: "Roboto", "sans-serif";
+	font-weight: 900;
+	font-size: 55px;
+	z-index: 5;
+}
+
+/*
+#error:hover{
+	font-family: "Abril Fatface", cursive;
+	letter-spacing: 3px;
+	font-size: 50px;
+}*/
+
+#portrait{
+	background-image: url(images/portrait.jpg);
+	background-size: 117%, 117%;
+	background-position: center;
+	color: none;
+	overflow: hidden;
+	width: 158px;
+	height: 210px;
+	position: absolute;
+	left: 1080px;
+	top: 360px;
+	z-index: 4;
+	border-width:1px;
+	border-style: solid;
+	border-color: black;
+}
+
+#portrait:hover{
+	filter: invert(100%);
+	border-width:1px;
+	border-style: solid;
+	border-color: white;
+}
+
+#assembled1{
+	background-image: url(images/assembled_1.jpg);
+	background-size: 105%, 105%;
+	background-position: center;
+	overflow: hidden;
+	width: 122.4px;
+	height: 190.8px;
+	position: absolute;
+	left: 900px;
+	top: 50px;
+	z-index: 4;
+	border-width:1px;
+	border-style: solid;
+	border-color: black;
+}
+
+#assembled1:hover{
+	filter: invert(100%);
+	border-width:1px;
+	border-style: solid;
+	border-color: white;
+}
+
+#couch{
+	background-image: url(images/couch.jpg);
+	background-size: 105%, 105%;
+	background-position: center;
+	overflow: hidden;
+	width: 300px;
+	height: 145px;
+	position: absolute;
+	left: 470px;
+	top: 250px;
+	z-index: 4;
+	border-width:1px;
+	border-style: solid;
+	border-color: black;
+}
+
+#couch:hover{
+	filter: invert(100%);
+	border-width:1px;
+	border-style: solid;
+	border-color: white;
+}
+
