@@ -79,11 +79,11 @@ body{
 #itstrue{
 	position: absolute;
 	left: 4%;
-	top: 18%;
-	width: 28%;
-	height: 45%;
+	top: 9vw;
+	width: 25vw;
+	height: 19vw;
 	font-family: 'ddc_hardware_regularregular';
-	font-size: 700%;
+	font-size: 7.4vw;
 	margin: 0%;
 	color: black;
 	text-align: left;
@@ -94,11 +94,11 @@ body{
 #conner_date{
 	position: absolute;
 	left: 70%;
-	top: 20%;
-	width: 28%;
-	height: 45%;
+	top: 9vw;
+	width: 25vw;
+	height: 19vw;
 	font-family: 'ddc_hardware_regularregular';
-	font-size: 700%;
+	font-size: 7.4vw;
 	margin: 0%;
 	color: black;
 	text-align: left;
@@ -112,11 +112,11 @@ body{
 	background-position: center;
 	background-size: auto;
 	position: absolute;
-	left: 36.5%;
-	top: 17%;
-	border-radius: 75%;
-	width: 26.5%;
-	height: 53.5%;
+	left: 35vw;
+	top: 8.5vw;
+	border-radius: 50%;
+	width: 25vw;
+	height: 25vw;
 	z-index: 4;
 	animation: rotate_a 25s infinite;
 	animation-timing-function: linear;
@@ -141,11 +141,11 @@ body{
 	background-position: center;
 	background-size: 85%;
 	position: absolute;
-	left: 31%;
-	top: 7.5%;
-	width: 37.5%;
-	height: 73%;
-	border-radius: 75%;
+	left: 28.5vw;
+	top: 2vw;
+	width: 38vw;
+	height: 38vw;
+	border-radius: 50%;
 	animation: rotate_b 27s infinite;
 	animation-timing-function: linear;
 }
@@ -162,11 +162,11 @@ body{
 	background-position: center;
 	background-size: 100%;
 	position: absolute;
-	top: 78%;
-	left: 11%;
-	width: 190px;
-	height: 190px;
-	border-radius: 95px;
+	top: 33vw;
+	left: 6vw;
+	width: 14vw;
+	height: 14vw;
+	border-radius: 50%;
 	animation: wiggle_a 3s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
@@ -255,8 +255,8 @@ body{
 
 
 @keyframes wiggle_a {
-    from {left: 7%;}
-    to {left: 5%;}
+    from {left: 6vw;}
+    to {left: 8.9vw;}
 }
 
 
@@ -273,19 +273,19 @@ body{
 	background-position: center;
 	background-size: 135%;
 	position: absolute;
-	top: 78.5%;
-	left: 70%;
-	width: 18%;
-	height: 38%;
-	border-radius: 75%;
+	top: 45vw;
+	left: 70vw;
+	width: 20vw;
+	height: 20vw;
+	border-radius: 50%;
 	animation: wiggle_b 2s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
 }
 
 @keyframes wiggle_b {
-    from {top: 77%;}
-    to {top: 79%;}
+    from {top: 35vw;}
+    to {top: 37.5vw;}
 }
 
 #goodfriday:hover{
@@ -301,19 +301,19 @@ body{
 	background-position: center;
 	background-size: 109%;
 	position: absolute;
-	top: 97%;
+	top: 48vw;
 	left: 41.5%;
-	width: 20%;
-	height: 42%;
-	border-radius: 75%;
+	width: 18.7vw;
+	height: 18.7vw;
+	border-radius: 50%;
 	animation: wiggle_c 4s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
 }
 
 @keyframes wiggle_c {
-    from {left: 40%;}
-    to {left: 43%;}
+    from {left: 37.6vw;}
+    to {left: 40.6vw;}
 }
 
 #drawing125:hover{
