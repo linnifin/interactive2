@@ -46,7 +46,7 @@ body{
 .text{
 	font-family: "Varela Round", sans-serif; 
 	font-weight: 400;
-	font-size: 85%;
+	font-size: 1.2vw;
 	padding: 1%;
 	background-color: #F2F3FB;
 	position: absolute;
@@ -57,17 +57,17 @@ body{
 }
 
 #page_1{
-	width: 330px;
-	height: 360px;
-	left: 4%;
-	top: 115%;
+	width: 33.5vw;
+	height: 27.5vw;
+	left: 4vw;
+	top: 53vw;
 }
 
 #page_2{
-	width: 330px;
-	height: 390px;
-	left: 4%;
-	top: 436%;
+	width: 33.5vw;
+	height: 30.5vw;
+	left: 4vw;
+	top: 203vw;
 
 }
 
@@ -162,7 +162,7 @@ body{
 	background-position: center;
 	background-size: 100%;
 	position: absolute;
-	top: 33vw;
+	top: 35vw;
 	left: 6vw;
 	width: 14vw;
 	height: 14vw;
@@ -179,10 +179,10 @@ body{
 	background-size: 170%;
 	position: absolute;
 	top: 180%;
-	left: 11%;
-	width: 260px;
-	height: 260px;
-	border-radius: 130px;
+	left: 11vw;
+	width: 15.5vw;
+	height: 15.5vw;
+	border-radius: 50%;
 	animation: wiggle_1 3s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
@@ -194,8 +194,8 @@ body{
 }
 
 @keyframes wiggle_1 {
-    from {top: 179%;}
-    to {top: 182%;}
+    from {top: 84.5vw;}
+    to {top: 87vw;}
 }
 
 
@@ -205,11 +205,11 @@ body{
 	background-position: center;
 	background-size: 170%;
 	position: absolute;
-	top: 223%;
+	top: 105vw;
 	left: 31%;
-	width: 320px;
-	height: 320px;
-	border-radius: 160px;
+	width: 22vw;
+	height: 22vw;
+	border-radius: 50%;
 	animation: wiggle_2 2s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
@@ -221,8 +221,8 @@ body{
 }
 
 @keyframes wiggle_2 {
-    from {left: 29%;}
-    to {left: 31%;}
+    from {left: 28vw;}
+    to {left: 30vw;}
 }
 
 
@@ -233,10 +233,10 @@ body{
 	background-size: 215%;
 	position: absolute;
 	top: 228%;
-	left: 4%;
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
+	left: 4vw;
+	width: 13.5vw;
+	height: 13.5vw;
+	border-radius: 50%;
 	animation: wiggle_3 4s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
@@ -248,15 +248,15 @@ body{
 }
 
 @keyframes wiggle_3 {
-    from {top: 230%;}
-    to {top: 226%;}
+    from {top: 107.5vw;}
+    to {top: 104vw;}
 }
 
 
 
 @keyframes wiggle_a {
-    from {left: 6vw;}
-    to {left: 8.9vw;}
+    from {left: 10vw;}
+    to {left: 12.9vw;}
 }
 
 
@@ -312,8 +312,8 @@ body{
 }
 
 @keyframes wiggle_c {
-    from {left: 37.6vw;}
-    to {left: 40.6vw;}
+    from {left: 41.6vw;}
+    to {left: 44.6vw;}
 }
 
 #drawing125:hover{
@@ -329,11 +329,11 @@ body{
 	background-position: center;
 	background-size: 150%;
 	position: absolute;
-	top: 240%;
+	top: 113vw;
 	left: 70%;
-	width: 220px;
-	height: 220px;
-	border-radius: 110px;
+	width: 13vw;
+	height: 13vw;
+	border-radius: 50%;
 	animation: wiggle_10 4s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
@@ -345,8 +345,8 @@ body{
 }
 
 @keyframes wiggle_10 {
-    from {left: 72%;}
-    to {left: 69%;}
+    from {left: 70.5vw;}
+    to {left: 68vw;}
 }
 
 
@@ -357,19 +357,19 @@ body{
 	background-position: 80% 90%;
 	background-size: 220%;
 	position: absolute;
-	top: 135%;
+	top: 64.5vw;
 	left: 70%;
-	width: 23%;
-	height: 48%;
-	border-radius: 75%;
+	width: 24vw;
+	height: 24vw;
+	border-radius: 50%;
 	animation: wiggle_d 4s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
 }
 
 @keyframes wiggle_d {
-    from {left: 73%;}
-    to {left: 70%;}
+    from {left: 69vw;}
+    to {left: 66vw;}
 }
 
 #goodfriday2:hover{
@@ -384,19 +384,19 @@ body{
 	background-position: 50% 10%;
 	background-size: 209%;
 	position: absolute;
-	top: 153.5%;
-	left: 41.5%;
-	width: 15%;
-	height: 30.5%;
-	border-radius: 75%;
+	top: 60vw;
+	left: 43vw;
+	width: 15.5vw;
+	height: 15.5vw;
+	border-radius: 50%;
 	animation: wiggle_e 4s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
 }
 
 @keyframes wiggle_e {
-    from {top: 154.5%;}
-    to {top: 152%;}
+    from {top: 74vw;}
+    to {top: 72vw;}
 }
 
 #twohandangel:hover{
@@ -412,18 +412,18 @@ body{
 	background-size: 136%;
 	position: absolute;
 	top: 191%;
-	left: 60.5%;
-	width: 250px;
-	height: 250px;
-	border-radius: 125px;
+	left: 55.5vw;
+	width: 19vw;
+	height: 19vw;
+	border-radius: 50%;
 	animation: wiggle_f 3s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
 }
 
 @keyframes wiggle_f {
-    from {top: 190%;}
-    to {top: 193%;}
+    from {top: 89vw;}
+    to {top: 92vw;}
 }
 
 #neonnight:hover{
@@ -451,12 +451,12 @@ body{
 
 #pagebreak1 {
   position: absolute;
-  top: 285%;
-  left: 3.5%;
-  width: 96.5%;
-  height: 94%;
+  top: 132vw;
+  left: 4vw;
+  width: 95vw;
+  height: 41vw;
   font-family: 'ddc_hardware_regularregular';
-  font-size: 705%;
+  font-size: 9vw;
   line-height: 110%;
   color: black;
   text-align: left;
@@ -481,11 +481,11 @@ body{
 	background-position: center;
 	background-size: 200%;
 	position: absolute;
-	top: 385%;
-	left: 4%;
-	width: 240px;
-	height: 240px;
-	border-radius: 120px;
+	top: 190vw;
+	left: 6vw;
+	width: 15.5vw;
+	height: 15.5vw;
+	border-radius: 50%;
 	animation: wiggle_4 5s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
@@ -497,8 +497,8 @@ body{
 }
 
 @keyframes wiggle_4 {
-    from {top: 383%;}
-    to {top: 387%;}
+    from {top: 173vw;}
+    to {top: 176vw;}
 }
 
 
@@ -508,11 +508,11 @@ body{
 	background-position: center;
 	background-size: 120%;
 	position: absolute;
-	top: 390%;
+	top: 179vw;
 	left: 70%;
-	width: 310px;
-	height: 310px;
-	border-radius: 165px;
+	width: 19.5vw;
+	height: 19.5vw;
+	border-radius: 50%;
 	animation: wiggle_5 3s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
@@ -536,11 +536,11 @@ body{
 	background-position: center;
 	background-size: 120%;
 	position: absolute;
-	top: 454%;
+	top: 206vw;
 	left: 41%;
-	width: 260px;
-	height: 260px;
-	border-radius: 165px;
+	width: 16vw;
+	height: 16vw;
+	border-radius: 50%;
 	animation: wiggle_6 2s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
@@ -552,8 +552,8 @@ body{
 }
 
 @keyframes wiggle_6 {
-    from {left: 39%;}
-    to {left: 42%;}
+    from {left: 43vw;}
+    to {left: 45.5vw;}
 }
 
 
@@ -564,10 +564,10 @@ body{
 	background-size: 200%;
 	position: absolute;
 	top: 515%;
-	left: 41%;
-	width: 290px;
-	height: 290px;
-	border-radius: 145px;
+	left: 40vw;
+	width: 20vw;
+	height: 20vw;
+	border-radius: 50%;
 	animation: wiggle_7 4s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
@@ -579,8 +579,8 @@ body{
 }
 
 @keyframes wiggle_7 {
-    from {top: 517%;}
-    to {top: 514%;}
+    from {top: 235vw;}
+    to {top: 232vw;}
 }
 
 
@@ -618,11 +618,11 @@ body{
 	background-position: center;
 	background-size: 150%;
 	position: absolute;
-	top: 595%;
-	left: 70%;
-	width: 330px;
-	height: 330px;
-	border-radius: 160px;
+	top: 258vw;
+	left: 70vw;
+	width: 22vw;
+	height: 22vw;
+	border-radius: 50%;
 	animation: wiggle_9 3s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
@@ -634,8 +634,8 @@ body{
 }
 
 @keyframes wiggle_9 {
-    from {top: 593%;}
-    to {top: 596%;}
+    from {top: 258vw;}
+    to {top: 261vw;}
 }
 
 
@@ -645,12 +645,12 @@ body{
 	background-position: center;
 	background-size: 136%;*/
 	position: absolute;
-	top: 452%;
-	left: 68%;
-	width: 340px;
-	height: 340px;
+	top: 201.8vw;
+	left: 69vw;
+	width: 26vw;
+	height: 22vw;
 	font-family: 'ddc_hardware_regularregular';
-	font-size: 360%;
+	font-size: 4vw;
 	color: black;
     text-align: left;
     /*animation: rotate_b 24s infinite;
@@ -671,11 +671,11 @@ body{
 	background-position: center;
 	background-size: 109%;
 	position: absolute;
-	top: 380%;
+	top: 177vw;
 	left: 32%;
-	width: 350px;
-	height: 350px;
-	border-radius: 175px;
+	width: 22vw;
+	height: 22vw;
+	border-radius: 50%;
 	font-family: 'ddc_hardware_regularregular';
 	font-size: 500%;
 	color: black;
@@ -696,18 +696,17 @@ body{
 	background-position: top;
 	background-size: 136%;*/
 	position: absolute;
-	top: 498%;
-	left: 4%;
-	width: 310px;
-	height: 370px;
+	top: 233.5vw;
+	left: 4vw;
+	width: 25vw;
+	height: 26vw;
 	/*border-radius: 155px;*/
 	font-family: 'ddc_hardware_regularregular';
-	font-size: 360%;
+	font-size: 4vw;
 	color: black;
 	/*-webkit-text-stroke-width: .25px;
     -webkit-text-stroke-color: black;*/
     text-align: left;
-    padding-top: 4%;
     /*animation: rotate_a 23s infinite;
 	animation-timing-function: linear;
 	overflow: hidden;*/
@@ -725,19 +724,11 @@ body{
 	background-position: top;
 	background-size: 136%;
 	position: absolute;
-	top: 519%;
-	left: 70%;
-	width: 276px;
-	height: 276px;
-	border-radius: 138px;
-	font-family: 'ddc_hardware_regularregular';
-	line-height: 115%;
-	font-size: 520%;
-	color: white;
-	-webkit-text-stroke-width: .25px;
-    -webkit-text-stroke-color: black;
-    text-align: center;
-    padding-top: 8%;
+	top: 230vw;
+	left: 71vw;
+	width: 17.4vw;
+	height: 17.4vw;
+	border-radius: 50%;
     animation: rotate_b 22s infinite;
 	animation-timing-function: linear;
 }
