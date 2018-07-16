@@ -786,11 +786,11 @@ body{
 	background-position: center;
 	background-size: 100%;
 	position: absolute;
-	top: 759%;
-	left: 60%;
-	width: 33%;
-	height: 68%;
-	border-radius: 75%;
+	top: 344vw;
+	left: 57vw;
+	width: 34.5vw;
+	height: 34.5vw;
+	border-radius: 50%;
 	animation: rotate_a 32s infinite;
 	animation-timing-function: linear;
 }
@@ -803,13 +803,12 @@ body{
 
 #bruce_footer{
 	position: absolute;
-	top: 338vw;
+	top: 341vw;
 	left: 4vw;
 	width: 25vw;
 	height: 16vw;
-	border-radius: 75%;
 	font-family: 'ddc_hardware_regularregular';
-	font-size: 7vw;
+	font-size: 5vw;
 	line-height: 100%;
 	margin: 0%;
 	color: black;
@@ -826,12 +825,12 @@ body{
 	background-position: center;
 	background-size: 175%;*/
 	position: absolute;
-	top: 780%;
-	left: 4%;
-	width: 30%;
-	height: 42.5%;
+	top: 350vw;
+	left: 4vw;
+	width: 25vw;
+	height: 16vw;
 	font-family: 'ddc_hardware_regularregular';
-	font-size: 700%;
+	font-size: 7vw;
 	line-height: 100%;
 	margin: 0%;
 	color: black;
@@ -858,16 +857,16 @@ body{
 	background-position: 60% 20%;
 	background-size: 175%;*/
 	position: absolute;
-	top: 815%;
+	top: 372vw;
 	left: 4.5%;
-	width: 30%;
-	height: 34.5%;
+	width: 28vw;
+	height: 14vw;
 	font-family: 'ddc_hardware_regularregular';
-	font-size: 700%;
+	font-size: 7.5vw;
 	line-height: 115%;
 	color: black;
     text-align: left;
-    padding-top: 6%;
+
    /* animation: rotate_b 26s infinite;
 	animation-timing-function: linear;*/
 }
@@ -885,16 +884,15 @@ body{
 	background-position: 63% 60%;
 	background-size: 200%;*/
 	position: absolute;
-	top: 822%;
+	top: 369.2vw;
 	left: 4.5%;
-	width: 30%;
-	height: 34.5%;
+	width: 20vw;
+	height: 3vw;
 	font-family: 'ddc_hardware_regularregular';
-	font-size: 700%;
+	font-size: 7.5vw;
 	line-height: 115%;
 	color: black;
     text-align: left;
-    padding-top: 6%;
     /*animation: rotate_a 25s infinite;
 	animation-timing-function: linear;*/
 }
@@ -913,18 +911,18 @@ body{
 	background-size: 125%;
 	position: absolute;
 	top: 753%;
-	left: 40%;
-	width: 210px;
-	height: 210px;
-	border-radius: 105px;
+	left: 34vw;
+	width: 12vw;
+	height: 12vw;
+	border-radius: 50%;
 	animation: wiggle_g 4s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
 }
 
 @keyframes wiggle_g {
-    from {top: 755%;}
-    to {top: 752%;}
+    from {top: 346vw;}
+    to {top: 343vw;}
 }
 
 #march:hover{
@@ -938,19 +936,19 @@ body{
 	background-position: center;
 	background-size: 125%;
 	position: absolute;
-	top: 800%;
+	top: 365vw;
 	left: 38%;
-	width: 230px;
-	height: 230px;
-	border-radius: 115px;
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
 	animation: wiggle_h 2s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
 }
 
 @keyframes wiggle_h {
-    from {left: 37%;}
-    to {left: 39.5%;}
+    from {left: 35vw;}
+    to {left: 37.5vw;}
 }
 
 #black_dahlia:hover{
