@@ -345,8 +345,8 @@ body{
 }
 
 @keyframes wiggle_10 {
-    from {left: 70.5vw;}
-    to {left: 68vw;}
+    from {left: 76.5vw;}
+    to {left: 74vw;}
 }
 
 
@@ -590,11 +590,11 @@ body{
 	background-position: center;
 	background-size: 150%;
 	position: absolute;
-	top: 576%;
+	top: 263vw;
 	left: 4%;
-	width: 300px;
-	height: 300px;
-	border-radius: 150px;
+	width: 19vw;
+	height: 19vw;
+	border-radius: 50%;
 	animation: wiggle_8 5s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
@@ -606,8 +606,8 @@ body{
 }
 
 @keyframes wiggle_8 {
-    from {left: 3%;}
-    to {left: 6%;}
+    from {left: 3vw;}
+    to {left: 7vw;}
 }
 
 
@@ -745,18 +745,11 @@ body{
 	background-position: bottom;
 	background-size: 136%;
 	position: absolute;
-	top: 583%;
-	left: 40.5%;
-	width: 280px;
-	height: 280px;
-	border-radius: 140px;
-	font-family: 'ddc_hardware_regularregular';
-	font-size: 427%;
-	color: white;
-	-webkit-text-stroke-width: .25px;
-    -webkit-text-stroke-color: black;
-    text-align: center;
-    padding-top: 7%;
+	top: 264vw;
+	left: 39vw;
+	width: 17.5vw;
+	height: 17.5vw;
+	border-radius: 50%;
     animation: rotate_a 26s infinite;
 	animation-timing-function: linear;
 }
@@ -769,12 +762,12 @@ body{
 
 #pagebreak2 {
   position: absolute;
-  top: 640%;
-  left: 3.5%;
-  width: 96.5%;
-  height: 119%;
+  top: 287vw;
+  left: 4vw;
+  width: 95vw;
+  height: 41vw;
   font-family: 'ddc_hardware_regularregular';
-  font-size: 705%;
+  font-size: 9vw;
   line-height: 110%;
   color: black;
   text-align: left;
@@ -810,13 +803,13 @@ body{
 
 #bruce_footer{
 	position: absolute;
-	top: 749%;
-	left: 4%;
-	width: 30%;
-	height: 42.5%;
+	top: 338vw;
+	left: 4vw;
+	width: 25vw;
+	height: 16vw;
 	border-radius: 75%;
 	font-family: 'ddc_hardware_regularregular';
-	font-size: 700%;
+	font-size: 7vw;
 	line-height: 100%;
 	margin: 0%;
 	color: black;
@@ -973,19 +966,19 @@ body{
 	background-position: center;
 	background-size: 125%;
 	position: absolute;
-	top: 689%;
+	top: 311.3vw;
 	left: 4%;
-	width: 360px;
-	height: 360px;
-	border-radius: 180px;
+	width: 23vw;
+	height: 23vw;
+	border-radius: 50%;
 	animation: wiggle_mandala 3s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
 }
 
 @keyframes wiggle_mandala {
-    from {left: 6%;}
-    to {left: 4%;}
+    from {left: 6.5vw;}
+    to {left: 4vw;}
 }
 
 #mandala_2:hover{
